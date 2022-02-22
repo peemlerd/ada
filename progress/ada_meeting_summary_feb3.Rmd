@@ -1,0 +1,96 @@
+---
+title: 'ADA Meeting Summary Feb 3rd'
+date: "Feb 3rd 2022"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# TODO for Rema, Anjana, and Xiao. 
+
+## Please send the following to us:
+
+1. Reading lists on health IT literature, especially on health misinformation. My goal is to understand which questions health IT researchers care about, how they tackle those questions, etc. I know little about this area, so I need your help in getting up to speed. 
+
+2. Updated version of the Liu et. al. (2021) [https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3711751]. 
+
+3. Dataset with understandability and medical information *labels*. Listed below are columns in my current dataset, all of which are features, not labels. Moreover, Section 3.5.3 of Ask Your Doctor uses variables that I currently don't have, such as shot counts, transcript confidence level, etc. 
+
+**(Metadata)**
+ [1] "X"                                  "id"                                
+ [3] "publishedAt"                        "viewCount"                         
+ [5] "likeCount"                          "dislikeCount"                      
+ [7] "dislikeCount.1"                     "comment"                           
+ [9] "title"                              "description"                       
+[11] "contentDuration"                    "keyword"                           
+[13] "rank"                               "channelTitle"                      
+[15] "channelSubscriberCount"             "channelDescription"                
+[17] "channelViewCount"                   "channelVideoCount"                 
+[19] "contentDimension"                   "contentDefinition"   
+[21] "contentCaption"                     
+
+**(Content view)**
+[23] "Flesh_kincaid_Grade"                "Automated_Readability_Index"   "totalwords_description"     
+[25] "neg"                                "neu"                               
+[27] "pos"                                "summary_word_Count"                
+[29] "transition_word_Count"              "verb_count"                        
+[31] "active_verbs_count"                 "passive_verb_count"                
+[33] "description_sentence_count"         "unique_words_description"  
+
+4. (Whenever it's available) Dataset with physicians' labels on misinformation. 
+NOTE: These labels are not available yet. Based on our discussion, the entire process of obtaining these labels would take around 2 months. 
+
+5. Source code to reproduce your work. 
+
+6. Documents describing each variable (what it means, how it's collected, etc.). 
+
+7. Talks you have given about this project, slides, any other materials. 
+
+## Second meeting
+We are scheduled to meet at Feb 8th (Tue), 4:30PM to 1) walkthrough the dataset and 2) pinpoint research questions. 
+
+# What we have discussed
+
+## Goals of this project
+Develop automated classifiers of Youtube videos on four aspects: understandability, medical information, actionability, and mis/disinformation. Liu et. al. (2020) has used BLSTM to extract and identify medical words that appear on Youtube transcripts (medical information). Liu et. al. (2021) has used co-training to rate video understandability using two views — video metadata and video content — and measure the impact of understandability on engagement (as output by PCA), controlling for medical information using methods from the 2020 paper (understandability). To extend the project, we can do the following:
+
+## Possible extensions
+
+Plan: Identify criteria of interest (e.g., understandability) > find guidelines (e.g., PEMAT) > map features we have to specifics of the guideline + ask for labels > build a classifier.  
+
+### 1. Build a classifier for misinformation (accurate vs inaccurate videos).
+
+*This project is relevant because even if the video is understandable, contains info, is actionable, if the video is wrong, then we should NOT recommend it to patients.* 
+
+- Read more literature to understand how researchers conceive and identify misinformation. Think about how we might use our Youtube dataset to classify misinformation and how to obtain misinformation labels (i.e. recruit doctors).
+Rema and Anjana mentioned that previous work on health misinformation, such as info on COVID-19, usually occurs on Twitter via human-labelling. The deficiency with those work is that human-labelling is not scalable to large dataset (hence the need for Liu. et. al. 2021) and Twitter differs from Youtube.  
+
+- Ideas discussed: Define misinformation criteria using guideline by task force consisting of people from Mayo Clinic (refer to Rema for details) and discussion with health professionals. The labels will be available a few months from now, so if we can build classifiers first, we can feed data once it becomes available. 
+
+- Might want to apply to PEMAT actionability as well.
+
+### 2. Make a more fine-grained understandability classifier.
+- Alternative ways/assumptions to operationalize understandability as defined by PEMAT guideline. Currently, we have rhe following data: video metadata, video content, and labels on understandability by physicians, and typology to characterize medical information (unified lexicon) according to health professionals' standard. Is there another feature usage besides what Anjana shared on screen? 
+
+- Beyond binary. The current classifier treats understandability as a binary variable whereby if more than half of the PEMAT criteria are satisfied, $I(understandable) = 1$. In reality, each PEMAT score can be any $x \in [0,1]$. This would pose questions about how to interpret results (say, understandability = 0.7)
+
+### 3. Better understand classification made in Liu et. al. (2021). 
+
+- Examine non high-high classification by sampling from each of the quadrant. The 2021 paper classifies videos into 4 categories: high/low understandability/medical info. What are the characteristics of the videos that prevent them from falling into desirable region? Counterfactuals? 
+
+- Extend precision at K to understand robustness of understandability (I don't fully grasp this point). If physicians are more likely to recommend more videos we recommend instead of top results, then we have accomplished something. 
+
+###  4. Tangent 
+- Use Youtube co-viewership on who shares which videos to whom to measure collective engagement and spread of (false information).
+
+- Can Google Intelligence extract other types of metadata pertinent to our questions? 
+
+
+
+
+
+
