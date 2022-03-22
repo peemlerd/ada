@@ -1,0 +1,72 @@
+---
+title: 'Peem Lerdputtipongporn: ADA Week 2'
+date: "21st Feb - 21st March"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Ideas discussed
+
+## On misinformation
+
+## 
+# Meetings with external scientists
+
+I have met with the external scientists three times (Feb 8th; Feb 22nd; March 15th). They have sent us an updated version of the Ask Your Doctor paper. Misinformation label will be ready mid April. In terms of cleaning, they will compute readability indices for us. In terms of why our results differ, they use only features related to the videos rather than the outcome features. 
+
+TODO: Ask for readability labels for remaining 11,000.
+TODO: Redo EDA with duplicates removed.
+TODO: Refit the model with variable selections. 
+TODO: Try kNN with scaling. 
+
+## March 3th (pre-Spring break)
+
+This week, I merged all of the dataset to create two main dataframe (merging video content, metadata):
+
+\begin{itemize}
+\item A dataset with 600 labelled videos on info, actionability, and understandability.
+\item The entire dataframe of 11,000 videos (no labels). 
+\end{itemize}
+
+Also, I made substantial progresses in replicating results by Liu et. al. Below are the odd observations from the dataset. 
+
+First, the readability indices are meant for formal texts, so they are not suitable for some video description (e.g., bunch of hashtags, diabetes words strung together, etc.). The scientists believed misinformation is a function of video characteristic rather than user statistics. Therefore, they prefer we include those information in the classifier.
+
+Second, every comment derivative (cosine similarity, sentiment) sometimes has inappropriate value due to special symbols (think: "[cat, !dog]"). Because user statistics are outcome measures, they are happy to not use them for now.
+
+Third, number of positive, negative, and neutral comment counts are based on the Top 100 comments. Therefore, they should not sum up to the number of comments each video receives.
+
+Fourth, keywords can lead to irrelevant videos (think: nesina).
+
+Fifth, some of the distribution is very right-skewed, such as hannelSubscribers, channelViewCount, channelCommentCount. I have checked channels with very high subscribers/views/comments. Most of them are legitimate, such as Khan Academy, CBS, CNN. However, the distribution is **extremely** right-skewed (mean >>>> median). See histogram in R. Around 4,000 channels have no channel description.
+
+Sixth, need to perform PCA on some of the variables after cleaning the dataset first.
+
+Seventh, see the distribution of topicID in Jupyter notebook.
+
+### Extra stuff
+I spent some time thinking about the network-based approach. Many papers use channel-to-channel subscription and/or the number of referrals, both of which we don't have. However, there are several ways we may connect videos together, such as if they appear on the Top 50 using same keywords, if they have same topicId. TopicIds are shown below:
+
+## Feb 26th 
+First, I fixed the issue with PEMAT labels from physicians. The annotation from information content is now a Boolean. Also, I discovered issues with readability indices that they are out of appropriate range.
+
+## Feb 9th
+Unsupervised learning doesn't work. Prakash and Tucker paper uses a much richer dataset than ours. Nynke and Larry would attempt to attend the meeting from now on.
+
+## Feb 8th
+We spent time refining our substantive questions. Our goal is to translate some abstract notion of misinformation into computable features consisted within our dataset. Different types of misinformation include: 
+
+\begin{itemize} 
+\item Distrust of the medical establishment. Therefore, they are more receptive to information from non-experts, conspiracy theorists, etc., which are more likely to contain wrong information.
+\item Information that is not up-to-date or changes rapidly by nature (think COVID-19). Although there are many papers about COVID misinformation, diabetes is chronic rather than acute. Our concern is to identify how applicable existing misinformation framework is.  
+\end{itemize} 
+
+Xiao expressed interest in usin unsupervised learning to classify misinformation (see Prakash and Tucker). The idea is that online health misinformation is usually handled by flagging and providing links for users to learn more about the topic. Therefore, we care misinformation to the extent that it's likely to contain misinformation.
+
+Other ideas to explore: comments (can we use network ideas to identify patterns of engagement?), transcripts (only used  metadata on active words/medical terms), and Youtube topics (knowledge graph).
+
