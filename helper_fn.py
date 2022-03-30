@@ -32,6 +32,7 @@ def truncateColumn(df, lower_bound, upper_bound, col_name):
     temp = []
     lb = lower_bound
     ub = upper_bound
+    dfcopy = df.copy()
     for val in df[col_name].tolist():
         if val > ub:
             temp.append(ub)
@@ -39,7 +40,8 @@ def truncateColumn(df, lower_bound, upper_bound, col_name):
             temp.append(lb)
         else: # Within the range
             temp.append(val)
-    df[col_name] = temp
+    dfcopy[col_name] = temp
+    return dfcopy
 
 # Calculate the sumamry statistics
 def summaryStatistics(df, col_to_summarize, fare = ["min", "max", "median", "mean"]):
