@@ -48,7 +48,7 @@ def summaryStatistics(df, col_to_summarize, fare = ["min", "max", "median", "mea
     """
     @param df: Dataframe
     @param col_to_summarize: A list of column names (string) to summarize.
-    @param fare: Summary statistics.
+    @param fare: List of summary statistics to compute.
     Usage: Computes a summary statistics for specific columns in the dataframe.
     """
     temp = {}
