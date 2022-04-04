@@ -1,14 +1,12 @@
 import numpy as np
 import pandas as pd
-pd.options.display.float_format = '{:20,.2f}'.format
 import matplotlib.pyplot as plt
-import altair as alt
 import pickle
 import string
 import random
+pd.options.display.float_format = '{:20,.2f}'.format
 
-# Statistics library
-import statsmodels.api as sm
+# Scikit-learn models
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import make_pipeline
 from sklearn.svm import SVC
@@ -17,6 +15,10 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.metrics import confusion_matrix, accuracy_score, precision_recall_fscore_support
 from sklearn.metrics import roc_curve, roc_auc_score
+
+# Text-processing model
+import spacy
+
 
 ##### Numerical value pre-processing ######
 def truncateColumn(df, lower_bound, upper_bound, col_name):
@@ -270,6 +272,37 @@ def createROC(X_test, y_test, model, name):
     plt.title("ROC curve for %s" %(name))
     plt.legend()
     plt.savefig("%s_ROC" %(name))
+
+def generateWordCloud(df, col_name, stopword_lst = [], to_file = False, filename = ""):
+    """
+    @param df: A dataframe whose column consists of texts we want to clean
+    @param col_name: A string of column name whose value is a text we want to clean.
+    @param stopword_lst: A list of words to exclude from our model
+    @param to_file: A boolean denoting whether we save the word cloud or not.
+    @param filename: A string denoting name of files we save (check if to_file == True)
+    Usage: Generate a word cloud showing the most frequent words appearing in columns of text.
+    NOTE: To generate a word cloud for a specific video, simply index by conditions,
+    such as video_id, channel creator, understandable, actionable, etc.
+    """
+    assert col_name in df.columns.tolist()
+    # Pre-process the text into long string.
+    text = ""
+    for video_subtitle in df[col_name].tolist():
+        text += cleanText(video_subtitle, stopword_lst, return_string = True)
+
+    # Generate a word cloud
+    wordcloud = WordCloud(background_color="white", max_words=5000, contour_width=3, contour_color='steelblue')
+    wordcloud.generate(text)
+    # Visualize a word cloud
+    wordcloud.to_image()
+    plt.figure(figsize = (9,6))
+    plt.imshow(wordcloud, interpolation="bilinear")
+    plt.axis("off")
+    plt.show()
+    if to_file:
+        assert len(filename) >= 1 # Ensure we save into legitimate filenames
+        print("Saving %s" %(filename))
+        wordcloud.to_file(filename)
 
 if __name__=="__main__":
    main()
