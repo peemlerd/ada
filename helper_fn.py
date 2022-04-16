@@ -18,7 +18,7 @@ from sklearn.metrics import roc_curve, roc_auc_score
 
 # Text-processing model
 import spacy
-
+import seaborn as sns
 
 ##### Numerical value pre-processing ######
 def truncateColumn(df, lower_bound, upper_bound, col_name):
@@ -201,55 +201,6 @@ def generateWordCloud(df, col_name):
     plt.show()
 
 
-def testClassifier(X, y, model_name, parameters = [], test_prop = 0.2):
-    """
-    @param X > X_train, X_calib, X_test
-    @param y > y_train, y_calib, y_test
-    @param model: String of the name of models we want to test
-    Usage: This function is used to test the performance of a given classifier on confusion matrix,
-    precision, recall, f-score, etc. We allow fine-tuning to happen within this function using gridSearchCV.
-    Return: None
-    NOTE: We do not allow make_pipeline(StandardScaler(), classifier) for now.
-    """
-    # Set random_state = 1 to compare between models.
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = test_prop, random_state = 1)
-
-    # Create and cross-validate the models over parameter space.
-    # The cross-validated dataset is X_train, y_train.
-    print("Below are the results of %s" %(model_name))
-
-    if model_name == "Logistic":
-        model = LogisticRegression()
-    elif model_name == "SVM":
-        model = GridSearchCV(SVC(probability = True),parameters)
-    elif model_name == "RandomForest":
-        model = GridSearchCV(RandomForestClassifier(), parameters)
-
-    # Start predicting on test set using best model on X_test, y_test.
-    model.fit(X_train, y_train)
-    try:
-        best = model.best_estimator_
-    except:
-        best = model
-    yhat = best.predict(X_test)
-
-    print("Displaying prediction")
-    # Display prediction result as follows: confusion matrix, accuracy, precision, recall, fscore
-    prediction = list(map(round, yhat))
-
-    ## Confusion matrix
-    cm = confusion_matrix(y_test, prediction)
-    tn, fp, fn, tp = cm.ravel() # Read from top left > bottom right
-    print ("Confusion Matrix : \n", cm)
-
-    ## Accuracy, precision, etc.
-    print('Accuracy =  %.2f' %(accuracy_score(y_test, prediction)))
-    precision, recall, fscore, support = precision_recall_fscore_support(y_test, prediction, pos_label = 1,
-                                                                         average = "binary")
-    print("Precision = %.2f\n Recall = %.2f\n F-score = %.2f" %(precision, recall, fscore))
-
-    return X_test, y_test, model
-
 def createROC(X_test, y_test, model, name):
     """
     @param X_test: The dataset used for testing
@@ -265,7 +216,8 @@ def createROC(X_test, y_test, model, name):
     auc = roc_auc_score(y_test, prob)
     print("The AUC value for %s is %f" %(name, auc))
     ax, fig = plt.subplots(figsize=(9, 6))
-    fig = plt.plot(lr_fpr, lr_tpr, marker='.', label=name)
+    majority = np.arange(0,1,0.05)
+    fig = plt.plot(fpr, tpr, marker='.', label=name)
     fig = plt.plot(majority, majority, marker = "*", label="Majority")
     plt.xlabel("FPR")
     plt.ylabel("TPR")
@@ -273,36 +225,93 @@ def createROC(X_test, y_test, model, name):
     plt.legend()
     plt.savefig("%s_ROC" %(name))
 
-def generateWordCloud(df, col_name, stopword_lst = [], to_file = False, filename = ""):
-    """
-    @param df: A dataframe whose column consists of texts we want to clean
-    @param col_name: A string of column name whose value is a text we want to clean.
-    @param stopword_lst: A list of words to exclude from our model
-    @param to_file: A boolean denoting whether we save the word cloud or not.
-    @param filename: A string denoting name of files we save (check if to_file == True)
-    Usage: Generate a word cloud showing the most frequent words appearing in columns of text.
-    NOTE: To generate a word cloud for a specific video, simply index by conditions,
-    such as video_id, channel creator, understandable, actionable, etc.
-    """
-    assert col_name in df.columns.tolist()
-    # Pre-process the text into long string.
-    text = ""
-    for video_subtitle in df[col_name].tolist():
-        text += cleanText(video_subtitle, stopword_lst, return_string = True)
 
-    # Generate a word cloud
-    wordcloud = WordCloud(background_color="white", max_words=5000, contour_width=3, contour_color='steelblue')
-    wordcloud.generate(text)
-    # Visualize a word cloud
-    wordcloud.to_image()
-    plt.figure(figsize = (9,6))
-    plt.imshow(wordcloud, interpolation="bilinear")
-    plt.axis("off")
-    plt.show()
-    if to_file:
-        assert len(filename) >= 1 # Ensure we save into legitimate filenames
-        print("Saving %s" %(filename))
-        wordcloud.to_file(filename)
+def comparisonTable(df, dependent, to_summarize, fare = ["min", "max", "median", "mean", "std"] ):
+    """
+    @param df: A dataframe to compare between two groups
+    @param dependent: Dependent variable to create comparison on. Should be "info","action",
+                    "understand", "misinfo"
+    @param to_summarize: A list of column names to summarize (in this case, all numeric)
+    @param fare: What to summarize on.
+    Usage: Create summary statistics to compare between two groups of dependent variables.
+    Return: A dataframe with Row_i, Row_{i+1} as ARI_info_0, ARI_info_1
+    """
+    assert dependent in ["info", "action", "understand", "misinfo"]
+    # Define df_i as a dataframe with dependent variable = i.
+    df_1 = df[df[dependent] == 1]
+    df_0 = df[df[dependent] == 0]
+    summary_lst = [summaryStatistics(df_0, to_summarize, fare = fare),
+                   summaryStatistics(df_1, to_summarize, fare=fare)]
+    newdf = pd.DataFrame(index = fare)
+    for feature in to_summarize:
+        for i in range(2): # Hard code for types of dependent variables.
+            col_name = feature + "_%s_%s" %(dependent, str(i))
+            newdf[col_name] = summary_lst[i][feature]
+    return newdf
+
+def boxplotVisualizer(df, dependent, feature_lst = [], title = "", figsize = (15,10),
+                      truncate = False, log_transform = False,
+                      isGrid = False, layout = (2,3)):
+    """
+    @param df: A dataframe whose columns consist of numerical variables we want to visualize (boxplot).
+    @param dependent: A string name of dependent variable for which we want to create a boxplot.
+    @param feature_lst: A list of feature names (str).
+    @param col_category: A string denoting the group of columns we wish to create boxplot altogether,
+                         such as readability, viewer engagement. This will appear as suptitle.
+    @param log_transform: If we want to log-transform each variable before visualizing.
+    ---- Fancy functionality -----
+    @param isGrid: A Boolean variable denoting whether we want to stack everything or create one grid.
+    @param layout: A tuple og grid dimensions.
+    -----------------------------
+    Return: A boxplot figure.
+    Usage: Identify which numerical variables may be relevant to our classification tasks. For Rema.
+    TODO: Implement value truncation
+    TODO(Fancy): Grid plot.
+    """
+    # Checking veracity of input variables.
+    assert dependent in ["info", "action", "understand", "misinfo"]
+    for col in feature_lst:
+        assert col in df.columns.tolist()
+
+    # Create a copy of dataframe to transform variables without messing the dataframe
+    dfcopy = df[feature_lst + [dependent]].copy()
+    transform_info = ""
+
+    # Apply log-transformation (NOTE: +10 is to prevent error with log(0)).
+    if log_transform:
+        transform_info = "log_transformed"
+        for col in feature_lst:
+            dfcopy[col] = np.log10(dfcopy[col] + 10)
+
+    """
+    # Generate the indices by which we create plots.
+    # NOTE: Plots are created left to right, up to down.
+    assert len(feature_lst) == layout[0]*layout[1]
+    if isGrid:
+        nrow = layout[0]
+        ncol = layout[1]
+        x_iter = np.repeat(np.arange(0,ncol,1), nrow, axis = 0)
+        y_iter = np.tile(np.arange(0,nrow,1), ncol)
+    """
+    # Create multiple subplots
+    fig, ax = plt.subplots(1, len(feature_lst), figsize = figsize)
+    fig.suptitle('Boxplots on %s for %s groups (%s).' %(title, dependent.upper(), transform_info))
+    for i, col in enumerate(feature_lst):
+        """
+        if isGrid:
+            cur_ax = ax[x_iter[i], y_iter[i]]
+        else:
+            cur_ax = ax[i]
+        """
+        # NOTE: If len(feature_lst) = 1, ax returns a subplot itself (hence, cannot index).
+        if len(feature_lst) <= 1:
+            cur_ax = ax
+        else:
+            cur_ax = ax[i]
+        cur_ax.set_title("%s" %(col))
+        cur_ax.grid()
+        sns.boxplot(ax = cur_ax, data = dfcopy, x = dependent, y = col)
+    return fig
 
 if __name__=="__main__":
    main()
