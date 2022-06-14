@@ -41,7 +41,7 @@ df <- read.csv("/Users/lerdp/Desktop/ADA/summary_data.csv")
 par(mfrow = c(1,2))
 boxplot(age_at_admit ~ deceased, data = df, xlab = "I(deceased)", ylab = "Age")
 boxplot(age_at_admit ~ gender, data = df, xlab = "Gender", ylab = "Age")
-prop_table(df$deceased, df$gender)
+table(df$deceased, df$gender)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
