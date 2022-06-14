@@ -1,0 +1,47 @@
+---
+title: "ada_surv_summary"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r setup, include=FALSE}
+# Download the libraries here
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(graphics)
+library(dagitty)
+library(papeR)
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+library(dplyr)
+library(naniar)
+library(mgcv)
+library(pander)
+library(caret)
+library(corrplot)
+library(tidyr)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+df <- read.csv("/Users/lerdp/Desktop/ADA/summary_data.csv")
+par(mfrow = c(1,2))
+boxplot(age_at_admit ~ deceased, data = df, xlab = "I(deceased)", ylab = "Age")
+boxplot(age_at_admit ~ gender, data = df, xlab = "Gender", ylab = "Age")
+prop_table(df$deceased, df$gender)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

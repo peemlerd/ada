@@ -1,0 +1,957 @@
+,pt,age_at_admit,ethnic,gender,days_in_icu,fully_observed,deceased,in_m_out,de_m_in,quartiles,marital_status,religion,weight,height,behavior,judgement,balance,tidal_volume,hemoglobin,conscious
+0,9.0,41.79,NA,m,5.3231,0,1,0,0,8Q,na,U,104,,Sedated,,,,12.899999618530273,Sedated
+1,67.0,73.49,white,m,0.2148,0,1,0,1,1Q,single,JEW,65,,Calm,,,,,Lethargic
+2,81.0,85.06,white,m,1.5137,1,1,0,0,3Q,married,U,,,Appropriate,,,,11.5,Alert
+3,103.0,60.38,NA,f,0.7639,1,1,0,0,1Q,married,RCA,61.5,,Calm,,,,8.8000001907348633,Alert
+4,203.0,57.97,asian,m,9.5551,1,0,0,0,9Q,married,U,62.400001525878906,,Sedated,,,,9.3000001907348633,Sedated
+6,360.0,76.39,white,f,6.1601,1,0,0,0,8Q,married,U,62.299999237060547,,Sedated,,,,9.8000001907348633,Sedated
+7,407.0,67.79,white,f,2.1097,1,1,0,0,5Q,na,RCA,98.300003051757813,,Calm,,,,10.5,Arouse to Voice
+8,561.0,64.02,NA,m,3.0832,0,1,0,0,6Q,widowed,U,99,,Sedated,,,,15.600000381469727,Arouse to Stimul
+9,666.0,59.58,white,f,0.7833,1,1,0,0,1Q,widowed,CSC,,,Calm,,,,11.899999618530273,Alert
+10,831.0,84.15,white,f,3.3545,1,1,0,0,7Q,widowed,JEW,50,,Sedated,,,,8.8999996185302734,Sedated
+11,854.0,61.37,white,m,1.5633,1,0,0,0,4Q,married,NSP,128.60000610351562,175,Appropriate,Intact,Steady,,12,Alert
+12,936.0,83.89,white,f,2.2019,1,1,0,0,5Q,widowed,PRO,,,Unresponsive,,,,13.600000381469727,Unresponsive
+13,970.0,55.14,black,m,0.9838,1,0,0,0,2Q,single,U,89.5,,Calm,,,,14.199999809265137,Alert
+14,1086.0,80.0,white,f,1.288,1,1,0,0,3Q,widowed,BAP,77,,Sedated,,,,15.5,Sedated
+15,1220.0,64.3,white,m,1.2166,1,0,0,0,3Q,married,RCA,78.400001525878906,,Calm,,,,9.8000001907348633,Alert
+16,1241.0,64.74,black,m,23.2853,1,1,0,0,10Q,single,NSP,92,,Anxious,,,,9.3999996185302734,Sedated
+17,1286.0,62.78,asian,m,3.735,1,0,0,0,7Q,married,U,69.300003051757812,175,Calm,Impaired,Unsteady,525,14.100000381469727,Lethargic
+18,1328.0,74.57,white,f,0.1118,1,0,0,0,,married,U,,,Calm,,,,,Alert
+19,1353.0,28.18,white,m,3.2655,1,0,0,0,7Q,single,U,,,Inappropriate,,,,13.600000381469727,Alert
+20,1426.0,80.37,latino,m,1.1429,1,1,0,0,3Q,single,PRO,70.099998474121094,,Calm,,,,8.6999998092651367,Alert
+21,1428.0,75.06,NA,f,6.7017,1,1,0,0,8Q,widowed,JEW,90,,Sedated,,,,11.100000381469727,Sedated
+22,1493.0,61.65,white,m,0.8795,1,0,0,0,2Q,married,OTR,87,,Appropriate,Impaired,Not assessed,,11.600000381469727,Alert
+23,1614.0,63.61,white,m,1.6112,1,1,0,0,4Q,married,,,,Calm,,,,11.800000190734863,Alert
+24,1630.0,84.66,white,f,1.0583,1,1,0,0,2Q,widowed,RCA,,,,,,,9.3000001907348633,Alert
+25,1744.0,84.86,NA,f,7.6326,0,1,0,0,8Q,widowed,PRO,67.599998474121094,,Sedated,,,,9.5,Sedated
+26,1996.0,76.22,white,f,3.0262,1,1,0,0,6Q,widowed,JEW,88,,,,,,12.600000381469727,Alert
+27,2149.0,54.69,NA,m,2.8375,1,0,0,0,6Q,married,NSP,105.90000152587891,,Restless,,,,11.399999618530273,Arouse to Voice
+28,2238.0,27.24,NA,m,5.8717,1,0,0,0,8Q,na,NSP,76.599998474121094,,Appropriate,,,,10.5,Unresponsive
+29,2292.0,46.36,white,f,1.9699,1,0,0,0,5Q,married,OTR,,,Calm,,,,13,Alert
+30,2310.0,73.85,NA,m,16.0852,1,0,0,0,10Q,married,JEW,84,,Calm,,,,12.5,Arouse to Voice
+31,2434.0,53.34,white,f,2.3677,1,0,0,0,5Q,married,PRO,122,,,,,,13.800000190734863,Lethargic
+32,2620.0,34.35,black,f,0.9113,1,0,0,0,2Q,single,U,,,Calm,,,,13.100000381469727,Alert
+33,2845.0,72.1,white,m,0.6148,1,0,0,0,1Q,married,U,,,Calm,,,,12.5,Alert
+34,2878.0,75.79,white,f,3.623,0,1,0,0,7Q,widowed,JEW,67.599998474121094,,,,,,12.399999618530273,Unresponsive
+35,2900.0,82.66,white,m,2.7926,1,1,0,0,6Q,married,NSP,,,Calm,,,,10.199999809265137,Alert
+36,2921.0,49.02,black,f,6.2724,0,1,0,0,8Q,single,PRO,67.199996948242187,,Withdrawn,,,455,9.3999996185302734,Alert
+37,2943.0,74.56,other,m,6.6778,1,1,0,0,8Q,na,,80,,Confused,,,,10.100000381469727,Confused
+38,2973.0,55.27,white,m,0.6851,0,1,0,0,1Q,single,OTR,66.699996948242187,,Anxious,,,,8.1999998092651367,Alert
+39,2993.0,46.78,black,f,17.6474,1,0,0,0,10Q,married,JSW,85,,Anesthetized,,,,11.100000381469727,Sedated
+40,3006.0,75.32,white,f,14.7173,0,1,0,0,10Q,married,OTR,54.799999237060547,,Unresponsive,,,,12.100000381469727,Arouse to Stimul
+41,3171.0,56.34,white,m,0.7483,0,1,0,0,1Q,married,U,80,,,,,,11.5,Unresponsive
+43,3212.0,57.83,white,m,18.7691,1,0,0,0,10Q,married,U,95,,Anesthetized,,,,12.5,Sedated
+44,3258.0,51.2,NA,m,6.8431,1,1,0,0,8Q,na,,98,,Anesthetized,,,,14.600000381469727,Unresponsive
+45,3289.0,80.93,white,m,6.6214,1,0,0,0,8Q,married,RCA,81.400001525878906,,Calm,,,,11.899999618530273,Arouse to Stimul
+46,3301.0,75.2,white,f,2.5539,0,1,0,0,6Q,na,U,60,,Unresponsive,,,,12.600000381469727,Unresponsive
+47,3340.0,82.46,white,m,3.109,1,1,0,0,6Q,na,U,73.300003051757812,,Agitated,,,,12.399999618530273,Unresponsive
+48,3497.0,58.53,white,m,0.9597,1,1,0,0,2Q,married,U,,,Appropriate,,,,12.800000190734863,Arouse to Voice
+49,3710.0,54.4,white,f,4.0004,1,0,0,0,7Q,widowed,RCA,56.900001525878906,,Calm,,,,13.300000190734863,Sedated
+51,3733.0,76.52,white,m,0.9512,0,1,0,1,2Q,divorced,JEW,88,,,,,,12.600000381469727,Unresponsive
+52,3737.0,60.14,white,m,3.1632,1,1,0,0,6Q,married,,112,,Calm,,,,12.100000381469727,Alert
+53,3800.0,78.16,white,f,12.8634,1,1,0,0,9Q,widowed,U,73,,Cooperative,,,,11.699999809265137,Lethargic
+54,3831.0,86.21,white,f,1.4175,0,1,0,0,3Q,single,U,,,Unresponsive,,,,,Unresponsive
+55,3939.0,63.49,white,f,0.8243,1,1,0,0,2Q,married,U,50,,Calm,Impaired,Steady,,13.699999809265137,Alert
+56,3974.0,63.08,white,f,2.7548,0,1,0,0,6Q,married,,63,,Sedated,,,,9.6999998092651367,Arouse to Pain
+57,3977.0,48.0,white,f,1.0792,1,1,0,0,2Q,single,RCA,45.400001525878906,160,Anxious,Intact,Not assessed,448,10.899999618530273,Alert
+58,4023.0,56.48,black,m,0.7695,0,1,0,1,1Q,single,U,75,,Unresponsive,,,,11.800000190734863,Unresponsive
+59,4270.0,84.99,white,f,3.9513,1,1,0,0,7Q,divorced,NSP,,,Agitated,,,,13.300000190734863,Arouse to Pain
+61,4448.0,48.86,white,f,1.8936,1,1,0,0,4Q,widowed,RCA,45.900001525878906,,Calm,,,,9.5,Alert
+62,4459.0,79.67,white,f,14.1643,1,1,0,0,10Q,married,RCA,55,,Sedated,,,,12.199999809265137,Unresponsive
+63,4590.0,75.59,white,f,0.2649,0,1,0,1,1Q,na,U,40,,Unresponsive,,,,,Unresponsive
+64,4598.0,61.06,white,m,2.0282,1,0,0,0,5Q,married,U,71.800003051757813,,Sedated,,,,10.899999618530273,Sedated
+65,4805.0,75.56,white,f,1.8834,1,1,0,0,4Q,widowed,RCA,80.900001525878906,,Calm,,,,12.399999618530273,Alert
+66,4814.0,67.88,white,m,5.7792,1,1,0,0,8Q,married,U,71.400001525878906,,Agitated,,,,13.800000190734863,Sedated
+67,4870.0,39.16,NA,m,10.0408,1,0,0,0,9Q,single,U,111,,Sedated,,,,12.199999809265137,Sedated
+68,4957.0,42.55,NA,f,2.6968,1,1,0,0,6Q,na,U,56.200000762939453,,Calm,,,,11.600000381469727,Lethargic
+69,5080.0,47.06,white,m,2.4386,1,0,0,0,6Q,married,U,,,Appropriate,,,,14.399999618530273,Alert
+70,5232.0,60.22,NA,m,0.3495,0,1,0,1,1Q,married,PRO,75,,,,,,17.100000381469727,Unresponsive
+71,5307.0,73.04,white,m,29.8403,1,1,0,0,10Q,married,JEW,115,,Restless,,,,11.699999809265137,Arouse to Stimul
+72,5389.0,81.63,white,m,2.3071,1,0,0,0,5Q,single,EPI,65,,Appropriate,,,,8.6000003814697266,Sedated
+73,5411.0,78.1,white,f,1.9686,1,1,0,0,5Q,separated,JEW,,,Appropriate,,,,11.800000190734863,Alert
+75,5610.0,80.41,white,f,2.1662,1,1,0,0,5Q,married,PRO,92.099998474121094,,Calm,,,,11,Alert
+76,5637.0,47.21,white,f,5.9708,1,1,0,0,8Q,married,PRO,46.700000762939453,,Anxious,,,,7.9000000953674316,Alert
+77,5641.0,80.65,white,f,3.7904,0,1,0,0,7Q,na,U,70,,Unresponsive,,,,12.800000190734863,Unresponsive
+78,5642.0,83.67,white,f,4.8456,1,1,0,0,7Q,na,U,60.900001525878906,,Unresponsive,,,,12.300000190734863,Arouse to Pain
+79,5740.0,77.37,white,f,2.0775,1,1,0,0,5Q,widowed,U,107,,Uncomfortable,,,,12.5,Alert
+80,5814.0,51.72,white,m,1.8958,1,0,0,0,4Q,married,U,80,,Calm,,,,13.300000190734863,Alert
+81,5820.0,56.13,asian,m,8.9967,1,1,0,0,9Q,married,U,81,,Restless,Impaired,Unsteady,522,12.399999618530273,Sedated
+82,5924.0,54.05,white,m,0.9512,1,1,0,0,2Q,single,PRO,,,Calm,,,,10.5,Alert
+83,5969.0,67.79,NA,f,16.96,1,1,0,0,10Q,na,U,,,Restless,,,,10,Arouse to Pain
+84,5987.0,54.47,asian,f,1.5257,0,1,0,0,3Q,na,U,55.5,,Unresponsive,,,,13.899999618530273,Unresponsive
+85,6018.0,79.22,white,m,1.1438,1,1,0,0,3Q,divorced,RCA,,,Unresponsive,,,,9.3999996185302734,Arouse to Pain
+86,6065.0,72.27,latino,f,0.6216,0,1,0,1,1Q,widowed,RCA,70,,Unresponsive,,,,9.8999996185302734,Unresponsive
+87,6099.0,56.34,white,m,27.0395,1,1,0,0,10Q,na,U,46,,Sedated,,,,9.8999996185302734,Alert
+88,6105.0,78.89,NA,f,2.9625,1,1,0,0,6Q,married,U,,,Unresponsive,,,,10,Unresponsive
+89,6241.0,87.01,white,f,13.6259,1,1,0,0,10Q,divorced,U,70.599998474121094,,Withdrawn,,,,10.899999618530273,Unresponsive
+90,6369.0,69.27,white,m,1.5001,1,0,0,0,3Q,married,U,80,,Calm,,,,11.600000381469727,Alert
+91,6374.0,64.0,white,m,1.8846,1,0,0,0,4Q,married,U,,,Calm,,,,14.399999618530273,Alert
+92,6432.0,67.1,NA,m,38.1483,1,1,0,0,10Q,single,U,62,168,Withdrawn,,,512,9.8000001907348633,Arouse to Voice
+93,6541.0,60.22,white,m,6.5062,1,1,0,0,8Q,married,RCA,78.5,,Calm,,,,12.800000190734863,Alert
+94,6568.0,61.26,white,m,0.5994,0,1,0,1,1Q,married,NSP,70,,,,,,12.800000190734863,Paralytic Med
+95,6741.0,83.44,white,m,3.8066,1,1,0,0,7Q,single,OTR,48.200000762939453,,Calm,,,,12.399999618530273,Alert
+97,6815.0,61.64,white,f,13.0721,1,1,0,0,9Q,widowed,NSP,45,,Combative,,,,13.199999809265137,Alert
+98,6822.0,71.78,white,m,10.5402,0,1,0,0,9Q,married,NSP,67.800003051757813,,,,,,9.3000001907348633,Arouse to Voice
+99,6893.0,56.12,white,m,17.4955,1,1,0,0,10Q,married,OTR,67.900001525878906,,,,,,9.5,Sedated
+100,6924.0,51.57,white,f,3.3375,1,0,0,0,7Q,married,RCA,,,Calm,,,,11.300000190734863,Lethargic
+101,6957.0,48.72,white,f,4.2213,1,0,0,0,7Q,married,U,61.299999237060547,,Calm,,,,11.5,Unresponsive
+102,6981.0,73.06,white,m,2.2632,1,1,0,0,5Q,married,RCA,,,Calm,,,,10.399999618530273,Alert
+103,7008.0,74.78,white,m,2.0632,1,0,0,0,5Q,married,NSP,,,Calm,,,,12.300000190734863,Alert
+104,7060.0,80.25,NA,f,1.6556,1,1,0,0,4Q,na,U,67,,Calm,,,,10.100000381469727,Alert
+105,7180.0,68.42,white,m,0.8878,1,0,0,0,2Q,married,U,81,,Sedated,,,,8.5,Sedated
+106,7276.0,81.86,white,f,1.7609,0,1,0,0,4Q,na,U,74,,Unresponsive,,,,11.300000190734863,Unresponsive
+107,7358.0,83.44,black,f,13.9083,1,1,0,0,10Q,widowed,BUD,85.699996948242188,,Calm,,,,8.1999998092651367,Arouse to Stimul
+108,7365.0,43.56,black,f,7.77,1,0,0,0,9Q,divorced,NSP,63,,Calm,,,,9.3999996185302734,Alert
+109,7384.0,72.33,white,f,13.5131,1,0,0,0,10Q,married,JEW,91,,Unresponsive,,,,11.100000381469727,Arouse to Pain
+110,7407.0,86.23,white,f,10.5414,1,1,0,0,9Q,married,RCA,,,Calm,,,,10.699999809265137,Alert
+111,7538.0,59.26,white,m,6.8023,1,1,0,0,8Q,single,RCA,81,,Sedated,,,,9.3999996185302734,Sedated
+112,7553.0,81.11,white,f,27.7336,1,1,0,0,10Q,married,U,75,,Unresponsive,,,,15.100000381469727,Unresponsive
+113,7566.0,54.97,black,m,14.5715,1,0,0,0,10Q,married,,77,,Calm,,,,11,Lethargic
+114,7665.0,40.97,white,m,2.6375,1,0,0,0,6Q,single,RCA,,,,,,,14.899999618530273,Alert
+115,7683.0,75.79,white,m,20.8795,1,1,0,0,10Q,single,U,,,Agitated,,,,13.100000381469727,Arouse to Voice
+116,7737.0,64.25,other,m,1.8695,0,1,0,0,4Q,na,U,75,,,,,,8.8000001907348633,Paralytic Med
+117,7751.0,66.7,white,m,1.2045,1,1,0,0,3Q,na,U,,,Unresponsive,,,,13.199999809265137,Unresponsive
+118,7895.0,79.86,white,f,0.71,0,1,0,0,1Q,widowed,UNI,47.200000762939453,,Unresponsive,,,,9.3000001907348633,Unresponsive
+119,7900.0,60.57,white,m,0.5638,1,1,0,0,1Q,single,NSP,139.10000610351562,,Appropriate,,,,9.6999998092651367,Alert
+120,8001.0,84.33,white,f,2.0661,0,1,0,0,5Q,married,RCA,57.299999237060547,,Calm,,,,9.6000003814697266,Sedated
+121,8170.0,45.21,white,m,5.7607,1,0,0,0,8Q,na,NSP,80,,Calm,,,,15.600000381469727,Unresponsive
+122,8172.0,79.68,white,f,5.8431,0,1,0,0,8Q,single,,60,,Anxious,,,,13.699999809265137,Arouse to Pain
+123,8210.0,79.28,white,m,6.2123,1,1,0,0,8Q,married,RCA,77.5,,Agitated,,,,9.1999998092651367,Arouse to Stimul
+124,8322.0,81.49,white,f,3.0694,1,1,0,0,6Q,na,U,63,,Sedated,,,,12.399999618530273,Unresponsive
+125,8362.0,47.42,white,m,2.1729,0,1,0,0,5Q,single,NSP,68.5,,Calm,,,,12.600000381469727,Arouse to Voice
+126,8377.0,88.95,white,m,2.0938,1,1,0,0,5Q,married,U,,,Sleeping,,,,12.5,Arouse to Voice
+127,8393.0,63.68,white,m,16.6372,1,0,0,0,10Q,married,U,90.699996948242188,,Calm,Impaired,,,13.5,Arouse to Pain
+128,8394.0,85.4,white,f,14.0715,1,1,0,0,10Q,married,NSP,73.099998474121094,,Sleeping,,,,12.699999809265137,Arouse to Pain
+129,8461.0,61.12,other,m,24.813,1,0,0,0,10Q,married,U,95,,Calm,,,,12,Paralytic Med
+130,8549.0,74.72,white,m,2.0003,0,1,0,0,5Q,married,U,63,,Unresponsive,,,,12.199999809265137,Unresponsive
+131,8605.0,80.3,white,f,3.2477,0,1,0,0,6Q,single,U,80,,Unresponsive,,,,11,Sedated
+132,8657.0,61.03,white,m,1.2258,1,0,0,0,3Q,married,U,,,Calm,,,,,Alert
+133,8750.0,79.02,black,f,0.692,1,0,0,0,1Q,widowed,U,,,Sleeping,,,,12.100000381469727,Alert
+134,8883.0,84.06,white,f,1.0429,1,1,0,0,2Q,widowed,PRO,,,Calm,,,,10.899999618530273,Arouse to Voice
+135,8962.0,68.83,white,m,1.733,1,1,0,0,4Q,divorced,JEW,75.5,,Calm,,,,13,Alert
+136,8999.0,81.81,white,f,1.748,1,1,0,0,4Q,single,NSP,37.5,,Calm,,,,14,Alert
+137,9010.0,79.36,white,m,0.3362,0,1,0,1,1Q,married,,90.699996948242188,,,,,,,Unresponsive
+138,9024.0,82.87,white,m,1.054,1,1,0,0,2Q,widowed,JEW,,,,,,,13.899999618530273,Arouse to Voice
+139,9056.0,85.59,NA,m,6.8201,1,1,0,0,8Q,married,,74.069999694824219,,Calm,,,,11.800000190734863,Alert
+140,9077.0,40.52,white,m,1.0563,0,1,0,0,2Q,single,U,65,,Unresponsive,,,,,Unresponsive
+141,9081.0,74.96,white,m,5.0396,0,1,0,0,8Q,widowed,RCA,70,,Agitated,,,,10.600000381469727,Arouse to Voice
+142,9118.0,72.43,NA,m,1.688,1,1,0,0,4Q,married,U,81.400001525878906,,Calm,,,,10.899999618530273,Alert
+143,9120.0,52.63,white,m,14.2597,1,0,0,0,10Q,married,,111,,Uncomfortable,,,,13.399999618530273,Alert
+144,9136.0,82.08,white,m,19.5651,0,1,0,0,10Q,widowed,U,85.400001525878906,,Sedated,,,,13,Sedated
+145,9142.0,78.07,white,f,1.0527,0,1,0,0,2Q,married,JEW,75,,Unresponsive,,,,11.199999809265137,Paralytic Med
+146,9293.0,72.38,white,m,0.2684,0,1,0,1,1Q,married,RCA,,,Unresponsive,,,,,Unresponsive
+147,9374.0,78.12,white,m,12.0165,1,1,0,0,9Q,married,U,96.599998474121094,,Cooperative,,,,11.699999809265137,Alert
+148,9486.0,69.56,white,m,0.9185,1,1,0,0,2Q,married,U,80.699996948242188,,Sedated,,,,8.1999998092651367,Sedated
+149,9554.0,68.04,white,f,0.4681,1,1,0,0,1Q,widowed,RCA,55,,Calm,,,,10.300000190734863,Alert
+150,9590.0,79.36,white,f,18.7437,1,1,0,0,10Q,married,JEW,71,,Cooperative,,,,9.8999996185302734,Alert
+152,9638.0,83.86,white,f,0.6776,0,1,0,1,1Q,married,RCA,62.900001525878906,,,,,,,Arouse to Stimul
+153,9675.0,73.98,white,m,0.9785,1,1,0,0,2Q,single,JEW,,,Calm,,,,,Alert
+154,9692.0,48.8,other,f,15.6374,1,0,0,0,10Q,married,U,80,,Restless,,,,11.899999618530273,Sedated
+155,9693.0,66.92,white,m,1.7321,1,0,0,0,4Q,divorced,RCA,74.800003051757813,,Calm,,,,10.5,Alert
+156,9718.0,79.08,white,f,0.3552,0,1,0,0,1Q,single,,59,,Sedated,,,,10.100000381469727,Sedated
+157,9727.0,77.94,asian,f,7.9356,1,0,0,0,9Q,widowed,U,54.2,152,Unresponsive,Intact,Unsteady,,13.100000381469727,Unresponsive
+158,9771.0,47.13,white,m,2.0016,1,0,0,0,5Q,single,U,90,,Sleeping,,,,13.899999618530273,Alert
+159,9785.0,69.37,white,m,10.5567,1,1,0,0,9Q,married,RCA,81.400001525878906,,Restless,,,,13.899999618530273,Alert
+160,9813.0,78.6,white,f,6.1023,0,1,0,0,8Q,married,PRO,60,,Sedated,,,,12.699999809265137,Sedated
+161,9855.0,83.75,white,f,3.193,1,1,0,0,6Q,widowed,U,62.099998474121094,,Calm,,,,9.6999998092651367,Lethargic
+162,9882.0,55.28,white,m,5.1257,1,0,0,0,8Q,married,,76.199996948242188,,Appropriate,,,,9,Alert
+163,9896.0,67.47,white,m,2.106,0,1,0,0,5Q,na,RCA,112,,Unresponsive,,,,6.5999999046325684,Unresponsive
+164,9962.0,81.17,white,f,0.4534,0,1,0,1,1Q,unknown (default),U,75,,Appropriate,,,,11.5,Alert
+166,10089.0,86.3,white,m,2.471,0,1,0,0,6Q,na,U,81.300003051757812,,,,,,12.699999809265137,Unresponsive
+167,10171.0,58.66,white,m,1.3111,1,0,0,0,3Q,married,U,92.900001525878906,,Appropriate,,,,14.199999809265137,Alert
+168,10248.0,61.77,black,m,7.7498,1,1,0,0,9Q,divorced,OTR,77.400001525878906,178,Calm,,,517,8.1000003814697266,Lethargic
+169,10258.0,56.35,white,m,21.4154,1,1,0,0,10Q,married,RCA,148,,Calm,,,,11.800000190734863,Lethargic
+170,10352.0,72.76,white,f,2.4721,0,1,0,0,6Q,married,OTR,58.599998474121094,,Sedated,,,,11.199999809265137,Unresponsive
+171,10358.0,64.15,white,m,0.3127,0,1,0,1,1Q,married,U,,,,,,,,
+172,10436.0,80.26,white,f,0.5306,0,1,0,1,1Q,married,U,104,,Unresponsive,,,,,Unresponsive
+173,10465.0,43.06,white,m,16.3719,1,1,0,0,10Q,single,NSP,80,,Unresponsive,,,,11,Sedated
+174,10558.0,43.37,NA,m,11.0576,0,1,0,0,9Q,married,RCA,,,Appropriate,,,,10.600000381469727,Alert
+175,10614.0,62.79,other,m,12.0242,1,0,0,0,9Q,na,OTR,63.900001525878906,,Sedated,,,,12.399999618530273,Unresponsive
+176,10736.0,72.96,white,m,1.222,1,1,0,0,3Q,divorced,RCA,75,,Calm,,,,11.100000381469727,Alert
+177,10768.0,83.12,white,m,7.0056,0,1,0,0,8Q,single,NSP,70,,Agitated,,,,12.899999618530273,
+178,10821.0,62.04,white,f,0.8962,1,0,0,0,2Q,divorced,U,70.5,,Appropriate,,,,,Alert
+179,10990.0,88.76,NA,m,7.5972,1,1,0,0,8Q,married,,78.099998474121094,,Unresponsive,,,,10.199999809265137,Unresponsive
+180,11017.0,85.76,white,m,1.0616,0,1,0,0,2Q,married,OTR,72,,Sedated,,,,,Unresponsive
+181,11020.0,59.14,asian,m,2.1684,1,0,0,0,5Q,married,NSP,,,Anxious,,,,15.399999618530273,Alert
+182,11064.0,86.06,white,m,2.0263,1,1,0,0,5Q,married,U,80,,Sedated,,,,10.199999809265137,Arouse to Pain
+183,11233.0,59.51,white,f,1.9702,1,1,0,0,5Q,single,U,54,,Calm,,,,10.5,Alert
+184,11309.0,39.26,white,m,16.1966,1,1,0,0,10Q,single,RCA,89,,Sedated,,,,16.399999618530273,Arouse to Voice
+185,11349.0,52.98,white,f,3.3491,0,1,0,0,7Q,single,U,60,,Unresponsive,,,,12.699999809265137,Unresponsive
+186,11358.0,65.2,NA,m,3.3564,1,1,0,0,7Q,single,RCA,,,Calm,,,,10.199999809265137,Arouse to Voice
+187,11432.0,56.92,white,m,10.9314,1,0,0,0,9Q,married,U,80,185,Sedated,Intact,Steady,,13.399999618530273,Arouse to Stimul
+188,11487.0,87.52,white,f,1.155,1,1,0,0,3Q,na,RCA,,,Calm,,,,10.699999809265137,Alert
+189,11604.0,71.62,NA,m,1.141,1,1,0,0,3Q,married,RCA,85,,Appropriate,,,,10.800000190734863,Alert
+190,11680.0,67.83,white,f,2.3361,1,1,0,0,5Q,widowed,RCA,,,Calm,,,,,Alert
+191,11746.0,57.37,white,m,20.3677,1,1,0,0,10Q,single,NSP,85,,Sedated,,,,12.699999809265137,Sedated
+192,11938.0,60.2,white,m,2.0367,1,0,0,0,5Q,single,U,105.40000152587891,,Calm,,,,13.100000381469727,Arouse to Voice
+193,12001.0,71.63,white,f,4.6201,1,0,0,0,7Q,married,U,54.400001525878906,,Sleeping,,,,12.399999618530273,Arouse to Voice
+194,12002.0,86.74,white,f,3.2756,1,1,0,0,7Q,widowed,,83.900001525878906,,Unresponsive,,,,11.199999809265137,Unresponsive
+195,12056.0,67.87,NA,f,3.8271,0,1,0,0,7Q,na,,100,,Restless,,,,13.100000381469727,Arouse to Voice
+196,12109.0,64.97,NA,m,5.4792,0,1,0,0,8Q,married,,161.5,,Calm,,,,14.199999809265137,Alert
+197,12209.0,70.82,white,m,0.937,1,0,0,0,2Q,na,RCA,,,Appropriate,,,,13.300000190734863,Alert
+198,12243.0,51.27,white,f,3.8815,1,0,0,0,7Q,married,RCA,76.400001525878906,,Sedated,,,,11.600000381469727,Arouse to Stimul
+199,12301.0,44.65,white,f,1.2204,1,0,0,0,3Q,married,PRO,,,Calm,,,,6.0999999046325684,Alert
+200,12326.0,66.17,white,m,6.0555,0,1,0,0,8Q,widowed,U,,,Unresponsive,,,,,Arouse to Pain
+201,12346.0,83.12,white,m,5.8188,1,1,0,0,8Q,married,RCA,87.099998474121094,,Anesthetized,,,,10.399999618530273,Paralytic Med
+202,12393.0,86.32,white,f,1.095,1,1,0,0,3Q,na,U,52,,Calm,,,,11.300000190734863,Alert
+203,12488.0,68.81,white,f,12.6298,1,1,0,0,9Q,single,JEW,56,,Sleeping,,,,11,Lethargic
+204,12508.0,44.57,white,m,22.6968,1,1,0,0,10Q,married,OTR,115,,Calm,,,,12.100000381469727,Sedated
+205,12607.0,46.24,white,m,1.3502,0,1,0,0,3Q,na,OTR,77.300003051757812,,Unresponsive,,,,14.699999809265137,Unresponsive
+206,12634.0,63.42,black,f,2.1021,0,1,0,0,5Q,separated,MET,58.200000762939453,,Sedated,,,,11,Sedated
+207,12738.0,83.88,white,f,6.2953,1,1,0,0,8Q,married,U,66.599998474121094,,Sedated,,,,10,Arouse to Voice
+208,12767.0,73.3,white,m,5.131,0,1,0,0,8Q,married,U,84.699996948242188,,Unresponsive,,,,11.5,Unresponsive
+211,12832.0,69.57,black,m,1.935,1,0,0,0,4Q,married,NSP,,,Calm,,,,12.199999809265137,Alert
+212,12835.0,76.07,black,f,1.1659,0,1,0,0,3Q,married,U,,,Unresponsive,,,,,Unresponsive
+213,13070.0,75.44,white,m,1.8414,1,0,0,0,4Q,single,U,80.599998474121094,,Calm,,,,12.899999618530273,Alert
+214,13107.0,77.87,NA,m,11.7473,1,1,0,0,9Q,married,CSC,94,,Sedated,,,,16.799999237060547,Sedated
+215,13241.0,72.42,white,m,2.942,1,1,0,0,6Q,married,NSP,85.599998474121094,,Calm,,,,10.5,Alert
+216,13367.0,59.25,white,m,3.2452,0,1,0,0,6Q,married,,163.19999694824219,,Unresponsive,,,,15.600000381469727,Unresponsive
+217,13514.0,78.67,white,f,0.8805,0,1,0,0,2Q,widowed,U,50.700000762939453,,Appropriate,,,,11.199999809265137,Arouse to Voice
+218,13537.0,86.82,white,f,1.0277,0,1,0,0,2Q,married,U,46.799999237060547,,,,,,10.199999809265137,Unresponsive
+219,13601.0,79.39,NA,f,7.0201,1,1,0,0,8Q,widowed,,56.099998474121094,,Sedated,,,,13.199999809265137,Arouse to Pain
+220,13638.0,51.27,white,m,2.7931,1,0,0,0,6Q,single,NSP,90,,Appropriate,,,,16.200000762939453,Alert
+221,13747.0,83.29,white,f,1.8196,1,1,0,0,4Q,na,U,,,Calm,,,,11.100000381469727,Alert
+222,13839.0,61.85,white,m,12.0502,1,1,0,0,9Q,single,U,109,191,Agitated,Impaired,Not assessed,,11.399999618530273,Sedated
+223,14003.0,52.27,white,m,5.8414,1,0,0,0,8Q,single,U,125,,Calm,,,,12.899999618530273,Alert
+224,14048.0,78.98,white,m,1.9774,1,0,0,0,5Q,married,U,81.800003051757812,,Sedated,Intact,Steady,,8.1000003814697266,Unresponsive
+225,14138.0,50.66,white,m,1.7204,1,0,0,0,4Q,divorced,U,103.5,,Calm,,,,17.100000381469727,Alert
+226,14182.0,81.2,white,f,0.8035,1,1,0,0,1Q,widowed,U,51.5,,Calm,,,,,Arouse to Stimul
+227,14190.0,42.99,white,f,2.719,0,1,0,0,6Q,single,U,56.900001525878906,,Crying,,,,11.600000381469727,Alert
+228,14338.0,49.05,white,m,1.4944,0,1,0,0,3Q,na,,81.800003051757812,,Unresponsive,,,,15.800000190734863,Unresponsive
+229,14486.0,73.21,white,m,11.6668,1,1,0,0,9Q,married,RCA,93.099998474121094,,Calm,,,,13.199999809265137,Alert
+230,14756.0,33.57,NA,m,6.4653,1,0,0,0,8Q,married,RCA,64.599998474121094,,Restless,,,,16,Arouse to Stimul
+231,14778.0,80.07,white,m,1.0542,0,1,0,0,2Q,married,U,86,,Unresponsive,,,,11.600000381469727,Unresponsive
+232,14798.0,48.67,latino,f,5.2321,1,1,0,0,8Q,single,NSP,,,Unresponsive,,,,6.5,Unresponsive
+233,14821.0,79.72,white,f,3.642,1,1,0,0,7Q,widowed,U,81.900001525878906,,Unresponsive,,,,13,Unresponsive
+234,15041.0,35.32,white,f,18.5528,1,1,0,0,10Q,married,,77.300003051757812,,Calm,Intact,Steady,,12.300000190734863,Sedated
+235,15200.0,75.0,white,f,5.5634,1,1,0,0,8Q,married,U,67.699996948242188,,Calm,,,,10.800000190734863,Unresponsive
+236,15208.0,78.39,asian,m,1.1839,1,1,0,0,3Q,married,U,67.400001525878906,,Calm,,,,10.199999809265137,Dozing Intermit
+237,15213.0,80.59,white,f,0.744,1,0,0,0,1Q,single,NSP,42.700000762939453,,Calm,,,,11.600000381469727,Alert
+238,15235.0,85.53,white,f,4.0458,1,1,0,0,7Q,married,JEW,72,,Calm,,,,9.3999996185302734,Alert
+239,15277.0,55.69,NA,m,10.168,0,1,0,0,9Q,na,U,63.900001525878906,,Unresponsive,,,,14,Unresponsive
+240,15303.0,83.79,white,m,4.5833,0,1,0,0,7Q,married,,66.5,,Unresponsive,,,,13.199999809265137,Arouse to Stimul
+241,15378.0,78.0,white,m,1.1005,0,1,0,0,3Q,married,U,84.199996948242188,,,,,,14.100000381469727,Unresponsive
+242,15474.0,52.28,black,m,0.8508,1,0,0,0,2Q,married,U,,,,,,,13.399999618530273,Alert
+243,15624.0,74.82,white,f,0.7823,0,1,0,0,1Q,divorced,JEW,73.800003051757812,,Calm,,,,8.1999998092651367,Alert
+244,15679.0,71.9,latino,thnicity:black/cape verdea,2.1473,1,0,0,0,5Q,married,RCA,73,,Calm,Deferred,Steady,,11.699999809265137,Alert
+245,15683.0,58.96,white,m,2.3321,0,1,0,0,5Q,na,NSP,80,,Unresponsive,,,,13.699999809265137,Unresponsive
+246,15704.0,63.34,white,m,2.0763,1,0,0,0,5Q,married,U,87.099998474121094,,Anxious,,,,13.300000190734863,Alert
+247,15749.0,55.82,white,f,3.7093,1,1,0,0,7Q,married,RCA,56.799999237060547,145,Anxious,Intact,Steady,480,11.300000190734863,Alert
+248,15932.0,81.88,asian,m,2.7321,0,1,0,0,6Q,married,PRO,81.400001525878906,,Unresponsive,,,,11.199999809265137,Unresponsive
+249,16012.0,78.73,NA,f,1.0736,1,0,0,0,2Q,widowed,RCA,70.800003051757813,,Calm,,,,12,Alert
+250,16020.0,74.96,white,f,1.7488,0,1,0,0,4Q,married,U,94,,Agitated,,,,9.3999996185302734,Other/Remarks
+251,16037.0,81.98,white,f,6.0823,0,1,0,0,8Q,married,NSP,,,Withdrawn,,,,11.800000190734863,Sedated
+252,16178.0,76.0,white,f,5.9895,1,1,0,0,8Q,widowed,RCA,70,,Calm,,,,7.4000000953674316,Arouse to Voice
+253,16192.0,79.42,black,f,0.7438,1,0,0,0,1Q,single,U,46,,Calm,,,,9.6999998092651367,Alert
+256,16260.0,86.24,black,f,1.127,0,1,0,0,3Q,widowed,U,82,,Uncooperative,,,,8.8999996185302734,Arouse to Pain
+257,16265.0,54.86,black,m,17.0319,1,0,0,0,10Q,divorced,GOR,65.800003051757812,,Sedated,,,,12.100000381469727,Sedated
+258,16301.0,64.6,white,m,24.0384,1,1,0,0,10Q,single,U,100,,Sedated,,,,10.800000190734863,Sedated
+259,16302.0,50.21,white,f,26.1355,1,0,0,0,10Q,single,JEW,53,,Confused,,,,11.899999618530273,Lethargic
+260,16306.0,39.38,latino,m,1.819,1,0,0,0,4Q,single,RCA,64.199996948242188,,Calm,,,,13.399999618530273,Alert
+261,16399.0,62.2,white,m,3.5543,1,0,0,0,7Q,na,U,45,,Calm,,,,15.600000381469727,Alert
+262,16405.0,75.36,white,f,3.5472,0,1,0,0,7Q,single,JEW,,,Calm,,,,12.600000381469727,Arouse to Pain
+263,16480.0,72.25,white,f,12.3858,1,1,0,0,9Q,married,RCA,83.099998474121094,,,,,,13.300000190734863,Sedated
+264,16485.0,76.9,white,m,0.9972,0,1,0,0,2Q,married,NSP,,,,,,,,Arouse to Stimul
+265,16500.0,72.61,NA,m,5.1792,1,1,0,0,8Q,divorced,RCA,71,,Combative,,,,12.899999618530273,Alert
+266,16547.0,81.63,white,m,13.8234,1,1,0,0,10Q,na,NSP,99.800003051757813,,Calm,,,,8.6000003814697266,Arouse to Voice
+267,16577.0,76.29,black,f,2.341,1,1,0,0,5Q,married,PRO,67,,Calm,,,,6.9000000953674316,Alert
+268,16610.0,81.72,NA,f,1.6806,1,0,0,0,4Q,na,,76.699996948242188,,Calm,,,,12.399999618530273,Alert
+269,16613.0,85.54,white,m,0.7967,1,1,0,0,1Q,married,NSP,71.599998474121094,,Anxious,,,,10.600000381469727,Arouse to Voice
+270,16641.0,60.85,black,m,13.104,0,1,0,0,9Q,single,PRO,89.5,,Unresponsive,,,,10,Unresponsive
+271,16679.0,82.93,white,m,5.5583,0,1,0,0,8Q,married,RCA,76.300003051757813,,Agitated,,,,13.300000190734863,Alert
+272,16804.0,83.98,white,f,13.3815,1,1,0,0,9Q,married,PRO,49,,Unresponsive,,,,9.5,Arouse to Pain
+273,16814.0,60.82,NA,f,36.7125,1,0,0,0,10Q,na,,95.199996948242188,,Unresponsive,,,,13.199999809265137,Unresponsive
+275,16883.0,87.26,white,m,14.715,1,1,0,0,10Q,married,U,88.5,,Sedated,,,,13.699999809265137,Arouse to Stimul
+276,16937.0,83.85,NA,m,0.986,0,1,0,0,2Q,widowed,U,50,,Sedated,,,,10.600000381469727,Arouse to Pain
+277,16973.0,58.23,NA,f,4.1059,0,1,0,0,7Q,married,U,80,,Sedated,,,,14.100000381469727,Sedated
+278,17043.0,49.73,NA,f,2.8458,1,0,0,0,6Q,married,PRO,87.599998474121094,,Appropriate,,,,13.600000381469727,Alert
+279,17184.0,65.27,white,f,1.749,1,0,0,0,4Q,single,RCA,73.099998474121094,,Calm,,,,12,Alert
+280,17269.0,60.46,white,f,0.6633,0,1,0,0,1Q,divorced,U,110,,Unresponsive,,,,11.899999618530273,Unresponsive
+281,17288.0,59.11,NA,f,0.8826,1,0,0,0,2Q,married,RCA,,,Calm,,,,14.800000190734863,Lethargic
+283,17337.0,66.64,white,m,0.9773,1,1,0,0,2Q,married,U,68.300003051757813,,Anxious,,,,12,Alert
+284,17429.0,75.53,NA,m,1.8182,1,1,0,0,4Q,single,U,,,,,,,12.5,Alert
+285,17461.0,61.0,white,m,6.9807,1,1,0,0,8Q,na,U,65.900001525878906,,Unresponsive,,,,14.399999618530273,Unresponsive
+286,17465.0,49.11,white,m,1.6153,1,0,0,0,4Q,married,RCA,106,,Calm,,,,12.5,Alert
+287,17471.0,82.81,white,f,0.7603,1,1,0,0,1Q,widowed,PRO,61.299999237060547,,,,,,13.300000190734863,Alert
+288,17565.0,83.2,white,m,0.3618,0,1,0,0,1Q,married,RCA,88,,Appropriate,,,,,Unresponsive
+289,17585.0,49.38,white,f,4.8408,1,0,0,0,7Q,married,U,80,,Sedated,,,,11.899999618530273,Sedated
+290,17604.0,60.23,white,m,6.9662,0,1,0,0,8Q,married,U,73.400001525878906,,Calm,,,,14.800000190734863,Arouse to Voice
+292,17697.0,82.45,white,f,2.9119,1,0,0,0,6Q,married,JEW,,,Calm,,,,13.5,Alert
+293,17712.0,59.33,black,f,2.4667,1,1,0,0,6Q,widowed,RCA,89.099998474121094,,Uncooperative,,,,13.300000190734863,Arouse to Pain
+294,17761.0,62.22,white,m,6.4737,1,1,0,0,8Q,single,U,,,Calm,,,,15.699999809265137,Alert
+295,17798.0,45.99,latino,m,7.1604,1,0,0,0,8Q,married,OTR,103.1,,Calm,Intact,Steady,,12.5,Alert
+296,17841.0,57.27,white,m,2.7906,1,0,0,0,6Q,married,U,102,,Appropriate,,,,16.200000762939453,Alert
+297,17887.0,81.34,white,f,2.1194,0,1,0,0,5Q,widowed,,60,,Calm,,,,12.800000190734863,Arouse to Stimul
+298,18060.0,52.78,white,m,2.7521,1,1,0,0,6Q,married,RCA,,,Sleeping,,,,11.399999618530273,Alert
+299,18114.0,69.47,white,m,6.0071,0,1,0,0,8Q,na,U,112,,Sedated,,,,12.699999809265137,Sedated
+300,18119.0,69.96,black,f,9.8627,1,1,0,0,9Q,single,PRO,62.900001525878906,,Calm,,,,10,Alert
+301,18152.0,72.81,NA,m,22.8951,1,0,0,0,10Q,single,,65.699996948242188,,Unresponsive,,,,9,Arouse to Pain
+302,18309.0,63.35,white,f,5.6522,1,0,0,0,8Q,married,JEW,,,Calm,,,,10,Alert
+303,18321.0,53.83,black,f,2.3534,0,1,0,0,5Q,divorced,PRO,58.799999237060547,,Crying,,,,9.5,Alert
+304,18331.0,66.75,white,m,4.2431,1,0,0,0,7Q,married,U,91.300003051757813,,Calm,,,,13.5,Alert
+305,18404.0,60.69,white,m,0.1462,0,1,0,1,1Q,married,U,135,,,,,,,Unresponsive
+306,18440.0,55.41,latino,m,0.9932,1,0,0,0,2Q,single,U,70.400001525878906,,Sleeping,,,,14.899999618530273,Lethargic
+307,18520.0,77.83,white,f,5.7204,1,1,0,0,8Q,widowed,U,70,,Sedated,,,,11.300000190734863,Sedated
+308,18546.0,49.03,white,f,1.0999,1,1,0,0,3Q,single,U,85.300003051757813,,Calm,,,,11.199999809265137,Alert
+309,18595.0,76.64,white,f,4.0928,1,1,0,0,7Q,widowed,RCA,,,Apathy,,,,10.5,Lethargic
+310,18605.0,52.64,white,m,8.8153,0,1,0,0,9Q,married,CSC,70.300003051757813,,Calm,,,,16.399999618530273,Arouse to Voice
+311,18668.0,61.42,black,f,0.7549,0,1,0,1,1Q,married,U,,,,,,,9.3999996185302734,Unresponsive
+312,18731.0,80.69,white,m,6.2708,1,1,0,0,8Q,married,RCA,97.300003051757813,,Calm,,,,12.100000381469727,Lethargic
+313,18742.0,88.79,white,f,1.0341,1,1,0,0,2Q,married,U,,,Calm,,,,10.199999809265137,Alert
+314,18807.0,63.87,latino,m,2.7665,1,0,0,0,6Q,married,U,68.599998474121094,,Sedated,,,,12.5,Sedated
+315,19005.0,57.85,white,f,3.9618,1,0,0,0,7Q,unknown (default),U,67.400001525878906,,Appropriate,,,,10.5,Alert
+316,19157.0,61.04,black,f,2.2014,1,1,0,0,5Q,single,NSP,,,Calm,,,,10,Alert
+317,19168.0,46.98,white,m,2.0022,1,0,0,0,5Q,single,OTR,79.900001525878906,,Sedated,,,,13.100000381469727,Sedated
+318,19169.0,43.27,latino,f,1.1646,1,0,0,0,3Q,married,U,75,,Calm,,,,13.100000381469727,Alert
+319,19265.0,43.95,black,m,4.5993,1,0,0,0,7Q,single,U,90,,Calm,,,,13.399999618530273,Sedated
+320,19279.0,62.96,asian,m,6.6111,1,0,0,0,8Q,married,U,57,,Sedated,,,,12.699999809265137,Unresponsive
+321,19310.0,79.32,white,f,0.8125,1,0,0,0,1Q,married,JEW,41.900001525878906,,Calm,,,,14,Arouse to Pain
+322,19341.0,42.5,white,m,2.8442,1,0,0,0,6Q,married,U,,,Anxious,,,,13.899999618530273,Alert
+323,19551.0,59.66,white,f,7.3764,1,0,0,0,8Q,married,OTR,57.599998474121094,,Sedated,,,,12.899999618530273,Sedated
+324,19619.0,67.86,white,f,2.0323,1,1,0,0,5Q,widowed,U,,,Calm,,,,8.3000001907348633,Arouse to Voice
+325,19632.0,68.4,white,m,10.8979,1,1,0,0,9Q,widowed,RCA,68.599998474121094,,Calm,,,,11,Alert
+326,19655.0,56.79,black,m,13.7689,1,0,0,0,10Q,single,U,63.5,,Calm,,,,10.100000381469727,Sedated
+327,19719.0,56.08,black,m,0.4816,0,1,0,1,1Q,single,RCA,89,,Unresponsive,,,,9.8999996185302734,Unresponsive
+328,19780.0,82.58,white,m,2.0853,1,1,0,0,5Q,married,PRO,,,Calm,,,,13.399999618530273,Alert
+329,19790.0,63.06,white,m,12.2843,1,0,0,0,9Q,single,U,93,,Sedated,,,,12,Unresponsive
+330,19899.0,83.79,white,f,1.7243,0,1,0,0,4Q,married,RCA,73.599998474121094,,Cooperative,,,,,Lethargic
+331,19948.0,70.32,NA,f,0.915,1,1,0,0,2Q,married,RCA,,,Appropriate,,,,13.300000190734863,Alert
+332,20073.0,86.38,white,m,1.0759,1,1,0,0,2Q,married,U,,,,,,,8.8000001907348633,Alert
+333,20193.0,71.75,black,f,13.609,0,1,0,0,10Q,na,,62.700000762939453,,Calm,,,,9.3999996185302734,Arouse to Stimul
+334,20240.0,50.25,white,m,10.6136,1,0,0,0,9Q,married,U,75,,Agitated,,,390,13.699999809265137,Unresponsive
+335,20251.0,58.61,white,f,3.8374,1,0,0,0,7Q,married,PRO,78.900001525878906,,Calm,,,,12.199999809265137,Alert
+336,20360.0,79.66,white,m,2.6408,1,1,0,0,6Q,married,RCA,85,,Sedated,,,,11.5,Sedated
+337,20389.0,74.31,white,m,1.4901,1,0,0,0,3Q,widowed,RCA,90,,Cooperative,,,,10.600000381469727,Alert
+338,20421.0,80.58,white,m,13.7284,1,1,0,0,10Q,married,PRO,113.90000152587891,173,Anesthetized,Deferred,Not assessed,482,12,Paralytic Med
+339,20434.0,59.11,other,m,7.431,1,0,0,0,8Q,divorced,U,70,,Calm,,,,13.600000381469727,Arouse to Stimul
+340,20436.0,63.31,white,m,5.6054,1,0,0,0,8Q,married,PRO,,,Calm,,,,11.899999618530273,Arouse to Stimul
+341,20494.0,63.73,white,f,0.6424,1,0,0,0,1Q,married,RCA,75.900001525878906,,Calm,,,,13,Alert
+342,20653.0,74.86,other,f,0.7409,1,1,0,0,1Q,widowed,U,,,,,,,10.600000381469727,Alert
+343,20716.0,83.44,white,f,1.5345,1,1,0,0,4Q,na,U,52,,Restless,,,,12.300000190734863,Arouse to Stimul
+344,20727.0,24.63,white,m,1.2743,1,0,0,0,3Q,single,U,61,,Appropriate,,,,15.899999618530273,Alert
+345,20748.0,55.77,latino,m,1.6419,0,1,0,0,4Q,separated,U,94,,,,,,12.5,Unresponsive
+346,20763.0,87.03,asian,f,1.401,1,1,0,0,3Q,na,U,61.5,,,,,,13.100000381469727,Alert
+347,20791.0,77.41,NA,m,5.2896,1,1,0,0,8Q,married,JEW,70,,Sedated,,,,14.300000190734863,Sedated
+348,20856.0,69.56,white,m,6.8285,1,1,0,0,8Q,married,RCA,75,,Sedated,,,,13.100000381469727,Alert
+349,20917.0,81.32,white,m,5.9152,0,1,0,0,8Q,married,U,97,,Calm,,,,10.399999618530273,Paralytic Med
+350,20952.0,69.69,white,f,2.1909,1,1,0,0,5Q,married,RCA,,,Calm,,,,9.8000001907348633,Alert
+351,20953.0,87.15,black,m,2.5773,1,1,0,0,6Q,married,RCA,68,,Other/Remarks,,,,12.600000381469727,Lethargic
+352,21048.0,47.09,latino,m,28.1817,1,0,0,0,10Q,single,,90,,Sedated,,,,10.600000381469727,Sedated
+353,21110.0,77.16,white,f,0.4899,0,1,0,1,1Q,married,NSP,70.300003051757813,,Unresponsive,,,,,Arouse to Stimul
+354,21114.0,75.55,white,m,1.0865,1,1,0,0,3Q,na,,50,,Agitated,,,,12,Arouse to Voice
+355,21176.0,75.85,white,f,4.0427,0,1,0,0,7Q,married,U,57,,Calm,,,,12.600000381469727,Sedated
+356,21179.0,59.85,NA,f,1.1056,1,0,0,0,3Q,married,,,,Calm,,,,12.399999618530273,Alert
+357,21181.0,83.49,white,f,2.9327,1,1,0,0,6Q,widowed,RCA,65,,Calm,,,,13.800000190734863,Alert
+361,21485.0,69.43,white,f,4.364,1,0,0,0,7Q,widowed,RCA,,,Calm,,,,11.800000190734863,Arouse to Pain
+362,21564.0,52.92,black,f,2.2493,1,0,0,0,5Q,single,PRO,,,,,,,12.100000381469727,Alert
+363,21669.0,70.83,NA,f,5.1972,0,1,0,0,8Q,divorced,BAP,60,,Calm,,,,12.600000381469727,Other/Remarks
+364,21759.0,78.64,white,m,1.9179,1,1,0,0,4Q,married,RCA,67.5,,Calm,,,,12.699999809265137,Alert
+365,21761.0,84.67,white,f,0.6808,0,1,0,1,1Q,widowed,JEW,68.099998474121094,,,,,,14.399999618530273,Unresponsive
+366,21894.0,64.78,white,f,0.9311,1,0,0,0,2Q,married,U,,,Appropriate,,,,13.100000381469727,Alert
+367,21934.0,78.87,NA,f,1.6306,0,1,0,0,4Q,single,PRO,50,,Unresponsive,,,,10.100000381469727,Unresponsive
+368,22000.0,39.57,white,f,27.0816,1,1,0,0,10Q,na,U,70,,Unresponsive,,,,11.300000190734863,Unresponsive
+369,22015.0,75.58,white,m,13.4124,1,1,0,0,10Q,married,RCA,98,,Sedated,,,,14.300000190734863,Arouse to Stimul
+370,22084.0,83.64,white,f,0.761,1,0,0,0,1Q,widowed,JEW,,,,,,,13.5,Alert
+371,22107.0,62.5,white,m,2.5126,1,1,0,0,6Q,single,U,92.199996948242187,,Appropriate,,,,14,Alert
+372,22169.0,49.05,white,f,7.1071,0,1,0,0,8Q,divorced,NSP,49.299999237060547,,Unresponsive,,,,11.699999809265137,Unresponsive
+373,22226.0,78.61,asian,m,4.8675,1,1,0,0,7Q,married,U,64,,Appropriate,,,,11.800000190734863,Alert
+374,22296.0,78.04,black,m,3.4852,1,0,0,0,7Q,married,U,69.699996948242188,,Sedated,,,,11.800000190734863,Sedated
+375,22303.0,70.67,black,m,25.8854,1,1,0,0,10Q,married,PRO,102,,Calm,,,,14,Unresponsive
+376,22358.0,51.89,white,m,15.6995,0,1,0,0,10Q,single,U,123,,Unresponsive,,,,12,Arouse to Pain
+377,22371.0,82.15,white,f,3.8027,1,1,0,0,7Q,married,PRO,55,,Apathy,,,,11.899999618530273,Lethargic
+378,22394.0,59.06,NA,m,4.8194,1,0,0,0,7Q,married,MUS,64.699996948242188,,Calm,,,,9.6000003814697266,Alert
+380,22494.0,70.39,NA,f,14.5799,1,1,0,0,10Q,married,PRO,66.699996948242187,,Sedated,,,,12.100000381469727,Sedated
+381,22528.0,57.14,white,m,1.9475,1,0,0,0,4Q,married,NSP,,,Calm,,,,15.5,Alert
+382,22595.0,71.96,other,f,19.8392,1,1,0,0,10Q,married,MUS,70.300003051757813,,Unresponsive,,,,11.300000190734863,Unresponsive
+383,22606.0,81.81,white,f,5.867,1,0,0,0,8Q,na,U,73,,Unresponsive,,,,12.600000381469727,Unresponsive
+384,22625.0,72.52,white,f,5.6453,1,0,0,0,8Q,married,U,52.900001525878906,,Calm,,,,12.699999809265137,Sedated
+385,22705.0,71.04,NA,m,15.8063,1,1,0,0,10Q,married,,107.40000152587891,,Calm,,,,12.199999809265137,Alert
+386,22731.0,87.76,white,f,7.0615,1,1,0,0,8Q,widowed,RCA,45,,Calm,,,,11.699999809265137,Lethargic
+387,22863.0,77.28,white,f,11.7318,1,1,0,0,9Q,married,PRO,55,,Calm,,,,11.399999618530273,Arouse to Pain
+388,22940.0,70.93,white,f,0.4902,0,1,0,0,1Q,na,U,66,,Unresponsive,,,,,Unresponsive
+389,23222.0,55.16,white,m,20.1686,1,0,0,0,10Q,single,U,90,,Unresponsive,,,,15.100000381469727,Arouse to Pain
+390,23273.0,65.38,white,m,2.4523,1,0,0,0,6Q,single,U,80,,Calm,,,,13.100000381469727,Sedated
+391,23275.0,78.68,white,f,2.4583,1,1,0,0,6Q,married,RCA,44.099998474121094,,Calm,,,,12.100000381469727,Arouse to Pain
+392,23324.0,53.8,other,m,2.5626,1,0,0,0,6Q,na,U,112,,Calm,,,,11.399999618530273,Alert
+393,23408.0,66.53,white,f,2.0604,1,0,0,0,5Q,widowed,,,,Cooperative,,,,12.600000381469727,Alert
+394,23556.0,77.46,white,f,6.3396,1,1,0,0,8Q,married,RCA,67,,Restless,,,,32.599998474121094,Lethargic
+395,23651.0,67.84,NA,m,1.1884,1,1,0,0,3Q,widowed,,,,Cooperative,,,,10.800000190734863,Alert
+396,23684.0,65.87,white,f,0.9755,1,0,0,0,2Q,na,U,108,,Sedated,,,,12.100000381469727,Sedated
+397,23716.0,63.2,NA,m,24.6678,1,0,0,0,10Q,single,RCA,127,,Calm,,,,13.199999809265137,Alert
+398,23867.0,84.49,white,f,1.625,1,1,0,0,4Q,widowed,RCA,56,,Confused,,,,10.899999618530273,Alert
+399,24135.0,70.15,white,f,3.7569,1,1,0,0,7Q,married,RCA,70,,Sedated,,,,12.399999618530273,Arouse to Pain
+400,24184.0,61.4,white,f,9.5889,1,0,0,0,9Q,separated,PRO,77.300003051757812,,Other/Remarks,,,,12.399999618530273,Alert
+401,24252.0,27.01,black,f,1.7516,0,1,0,0,4Q,single,U,50.200000762939453,,Anxious,,,,8,Lethargic
+402,24272.0,74.12,white,f,1.6969,0,1,0,0,4Q,married,JEW,70,,Unresponsive,,,,13.5,Unresponsive
+403,24295.0,88.49,white,m,2.7406,1,1,0,0,6Q,widowed,U,,,,,,,11.399999618530273,Arouse to Voice
+404,24322.0,80.21,white,m,1.8771,1,1,0,0,4Q,married,,69.900001525878906,,Calm,,,,10.800000190734863,Alert
+405,24334.0,49.13,white,m,13.2757,0,1,0,0,9Q,na,,105,,Sedated,,,,8.3000001907348633,Sedated
+406,24351.0,70.66,white,f,0.8833,0,1,0,1,2Q,divorced,RCA,58,,Unresponsive,,,,9.5,Unresponsive
+407,24398.0,51.5,white,m,2.9097,1,0,0,0,6Q,married,U,100,,Calm,,,,11.600000381469727,Alert
+408,24443.0,86.95,other,m,0.2469,1,1,0,0,1Q,married,U,63,,Calm,,,,8.8000001907348633,Alert
+409,24493.0,79.7,white,m,2.9135,1,1,0,0,6Q,married,RCA,76.300003051757813,,Calm,,,,13.399999618530273,Alert
+410,24581.0,82.28,white,m,1.1184,1,1,0,0,3Q,married,NSP,80,,Calm,,,,13.600000381469727,Alert
+411,24595.0,75.43,white,m,1.8292,0,1,0,0,4Q,married,RCA,,,,,,,12.300000190734863,Unresponsive
+412,24617.0,77.47,NA,f,12.0003,1,0,0,0,9Q,widowed,RCA,79.699996948242187,,Calm,,,,12.699999809265137,Lethargic
+413,24624.0,45.87,white,f,1.4593,1,1,0,0,3Q,married,NSP,85,,Sedated,,,,11.300000190734863,Unresponsive
+414,24776.0,79.55,white,m,15.3099,0,1,0,0,10Q,married,RCA,76.6,178,Calm,,,540,11.100000381469727,Alert
+415,24907.0,79.73,white,f,1.5713,1,1,0,0,4Q,widowed,RCA,41.099998474121094,,Calm,,,,9.8999996185302734,Alert
+416,24919.0,71.13,white,m,0.9354,1,1,0,0,2Q,single,PRO,84,,Calm,,,,14.899999618530273,Alert
+417,25030.0,38.09,black,f,33.8456,1,1,0,0,10Q,single,OTR,64.599998474121094,,Sleeping,,,,10.100000381469727,Alert
+418,25162.0,67.98,white,m,15.0631,1,1,0,0,10Q,married,JEW,100,,Sedated,,,,12,Sedated
+419,25196.0,52.9,asian,m,4.4884,1,0,0,0,7Q,married,NSP,75.400001525878906,,Sedated,,,,10.399999618530273,Paralytic Med
+420,25299.0,82.02,white,f,1.8789,1,0,0,0,4Q,widowed,NSP,49,,Anxious,,,,13.199999809265137,Alert
+421,25440.0,82.73,white,m,0.3,0,1,0,1,1Q,married,U,89,,Sedated,,,,14.100000381469727,Sedated
+422,25475.0,58.13,white,m,8.4204,1,1,0,0,9Q,single,RCA,,,,,,,14.399999618530273,Alert
+423,25514.0,66.82,white,f,0.9538,0,1,0,0,2Q,married,JEW,58.200000762939453,,Unresponsive,,,,11.800000190734863,Unresponsive
+424,25521.0,62.03,NA,m,1.5655,0,1,0,0,4Q,na,U,128,,Unresponsive,,,,13.100000381469727,Unresponsive
+425,25562.0,69.89,white,m,2.7575,1,1,0,0,6Q,divorced,JEW,57.299999237060547,,Unresponsive,,,,10.199999809265137,Unresponsive
+426,25571.0,76.67,white,m,10.9743,0,1,0,0,9Q,married,RCA,111,,Calm,,,,11.199999809265137,Arouse to Pain
+427,25609.0,63.05,black,m,19.4847,1,0,0,0,10Q,na,,96,,Sedated,,,,12.300000190734863,Arouse to Pain
+428,25710.0,55.07,asian,m,1.9351,1,1,0,0,4Q,married,NSP,85,,Calm,,,,13,Alert
+429,25763.0,53.97,other,f,1.89,1,0,0,0,4Q,married,HIN,,,Calm,,,,10.399999618530273,Alert
+430,25765.0,78.52,white,f,10.4459,0,1,0,0,9Q,married,RCA,74.699996948242187,,Calm,,,,14.300000190734863,Unresponsive
+431,25848.0,64.53,white,m,13.0653,1,0,0,0,9Q,divorced,,96.400001525878906,,Calm,,,,12.100000381469727,Arouse to Voice
+432,26029.0,57.44,white,f,3.0725,1,0,0,0,6Q,married,OTR,73,,Cooperative,,,,12.699999809265137,Alert
+433,26117.0,52.16,white,m,7.0586,0,1,0,0,8Q,married,OTR,80,,Sedated,,,,10,Unresponsive
+435,26191.0,85.67,NA,m,3.0539,1,1,0,0,6Q,married,U,69.5,,Agitated,,,,13.199999809265137,Alert
+436,26200.0,77.15,white,m,0.4136,0,1,0,1,1Q,married,RCA,51.400001525878906,,Appropriate,,,,8.8000001907348633,Alert
+437,26376.0,82.89,white,m,1.8605,0,1,0,0,4Q,married,U,65,,,,,,10.300000190734863,Unresponsive
+438,26408.0,88.97,white,f,51.7539,1,1,0,0,10Q,na,U,105,,Calm,,,,10.600000381469727,Alert
+439,26511.0,69.9,white,f,0.765,0,1,0,0,1Q,married,U,58.900001525878906,,Unresponsive,,,,13.100000381469727,Unresponsive
+440,26522.0,81.11,black,f,0.4458,0,1,0,0,1Q,married,RCA,70,,,,,,,Unresponsive
+441,26596.0,58.1,white,f,1.8855,0,1,0,0,4Q,na,U,54.5,,,,,,12.699999809265137,Unresponsive
+442,26690.0,61.58,white,m,3.4457,0,1,0,0,7Q,married,NSP,70.599998474121094,,Unresponsive,,,,12.800000190734863,Unresponsive
+443,26701.0,76.88,white,m,12.9572,1,0,0,0,9Q,married,U,99.699996948242188,,Sedated,,,,11.899999618530273,Sedated
+444,26758.0,67.03,latino,m,0.8647,1,1,0,0,2Q,divorced,RCA,,,Confused,,,,,Alert
+445,26857.0,54.21,white,f,1.1843,1,0,0,0,3Q,married,U,,,Calm,,,,12.399999618530273,Alert
+447,27007.0,17.23,white,f,10.1146,1,0,0,0,9Q,single,U,48.5,,Crying,,,,12,Arouse to Stimul
+448,27075.0,44.58,asian,f,1.766,1,0,0,0,4Q,married,NSP,,,Confused,,,,11.100000381469727,Alert
+449,27080.0,53.51,other,m,17.0596,0,1,0,0,10Q,married,U,60,,Unresponsive,,,,13.699999809265137,Unresponsive
+450,27119.0,66.91,white,m,1.7007,1,0,0,0,4Q,widowed,Unknown,112.19999694824219,66,Other/Remarks,Intact,Deferred,,14.699999809265137,Lethargic
+451,27122.0,81.02,white,m,3.8739,1,1,0,0,7Q,married,Unknown,80,152,Calm,,,,12.9,Unresponsive
+452,27162.0,61.79,other,f,10.1814,1,0,0,0,9Q,married,Roman Catholic,62,,Appropriate,,,,8.9,Alert
+453,27297.0,71.05,black,m,2.5465,1,1,0,0,6Q,married,PRO,72,,Calm,,,,12.800000190734863,Lethargic
+454,27302.0,64.05,white,f,13.6538,1,0,0,0,10Q,widowed,NSP,56,,Calm,,,,10,Arouse to Stimul
+455,27308.0,78.52,white,m,0.6475,0,1,0,1,1Q,married,OTR,,,Unresponsive,,,,,Unresponsive
+456,27309.0,83.92,white,m,3.8039,1,1,0,0,7Q,single,U,83,,Restless,,,,12.199999809265137,Sedated
+457,27310.0,86.97,white,m,2.3873,1,1,0,0,5Q,married,OTR,78,,Sedated,,,,,Sedated
+458,27361.0,58.55,white,m,3.1965,1,0,0,0,6Q,single,Unknown,63.799999237060547,,,,,,14,Alert
+459,27375.0,83.85,white,f,5.4885,0,1,0,0,8Q,married,NSP,66.400001525878906,,Calm,,,,13.5,Lethargic
+460,27448.0,65.76,white,m,1.7548,1,0,0,0,4Q,married,NSP,,,Calm,,,,13.199999809265137,Alert
+461,27584.0,55.25,latino,m,2.7791,1,0,0,0,6Q,married,U,63,,Calm,,,,14.199999809265137,Alert
+462,27730.0,82.26,asian,m,1.9641,0,1,0,0,5Q,married,U,54,,,,,,12.399999618530273,Lethargic
+464,27821.0,34.19,white,f,1.5952,0,1,0,0,4Q,na,U,66,,Unresponsive,,,,8.3000001907348633,Unresponsive
+465,27836.0,86.11,white,f,1.7658,0,1,0,0,4Q,married,Unknown,88,,Calm,,,,13.1,Arouse to Voice
+466,27845.0,54.68,latino,m,9.1181,1,0,0,0,9Q,married,Other,103.80000305175781,,Calm,,,,10.8,Arouse to Pain
+467,27860.0,66.14,black,m,1.5674,0,1,0,0,4Q,married,Unknown,70,,Unresponsive,,,,,Unresponsive
+468,27934.0,44.16,white,m,2.3486,0,1,0,0,5Q,married,U,85,,Unresponsive,,,,17.899999618530273,Unresponsive
+469,27941.0,76.8,NA,m,20.7399,1,1,0,0,10Q,married,,89.099998474121094,,Unresponsive,,,,13,Unresponsive
+470,27994.0,62.31,white,f,1.4825,1,0,0,0,3Q,married,JEW,,,Calm,,,,11.800000190734863,Lethargic
+472,28057.0,55.04,white,m,1.9757,1,1,0,0,5Q,married,OTR,73,,Calm,,,,13.4,Sleeping
+473,28062.0,47.57,white,f,17.3109,0,1,0,0,10Q,single,Roman Catholic,90,,Unresponsive,,,,10.8,Unresponsive
+474,28092.0,61.72,white,f,2.9996,1,1,0,0,6Q,married,NSP,66.7,,Calm,Intact,Steady,,12,Lethargic
+475,28123.0,55.74,white,f,1.7664,1,0,0,0,4Q,married,Unknown,68,,Sedated,,,,11.199999809265137,Sedated
+476,28224.0,74.11,white,f,2.0002,1,1,0,0,5Q,married,Not specified,61,,Inappropriate,,,,13.800000190734863,Lethargic
+477,28231.0,73.98,white,f,2.1518,1,0,0,0,5Q,married,Unknown,58,,Sedated,,,,12,Arouse to Stimul
+478,28246.0,55.33,white,f,8.6484,1,0,0,0,9Q,single,RCA,107.09999847412109,,Calm,,,,14.199999809265137,Lethargic
+479,28262.0,49.25,latino,m,1.7481,1,0,0,0,4Q,na,Unknown,,,Calm,,,,15.399999618530273,Lethargic
+480,28346.0,67.26,white,m,0.347,0,1,0,1,1Q,married,U,94,,Unresponsive,,,,,Unresponsive
+481,28401.0,82.8,white,f,4.7271,1,0,0,0,7Q,widowed,JEW,,,Agitated,,,,12.699999809265137,Arouse to Pain
+482,28483.0,86.79,white,m,0.7685,1,0,0,0,1Q,widowed,Protestant,,,,,,,14.5,Alert
+483,28500.0,70.16,latino,f,20.4755,1,0,0,0,10Q,single,Not specified,66,,Sedated,,,,9.3000001907348633,Unresponsive
+484,28519.0,79.92,white,f,1.0487,1,1,0,0,2Q,married,GOR,,,Calm,,,,11.100000381469727,Alert
+486,28644.0,41.01,black,m,2.6196,1,0,0,0,6Q,single,RCA,70,170,Agitated,Intact,Steady,570,16.5,Arouse to Stimul
+487,28687.0,78.28,white,m,0.9042,1,1,0,0,2Q,married,NSP,,,Calm,,,,,Unresponsive
+488,28760.0,69.23,white,m,0.5347,0,1,0,1,1Q,married,EPI,94,,,,,,,Unresponsive
+489,28925.0,66.62,white,m,7.1291,1,0,0,0,8Q,single,Unknown,70,,Restless,,,,14.199999809265137,Arouse to Voice
+490,29071.0,82.29,white,m,14.0749,1,1,0,0,10Q,married,Roman Catholic,83.900001525878906,,Sedated,,,,13.4,Alert
+491,29090.0,79.24,NA,f,6.0984,1,1,0,0,8Q,na,Not specified,62,,Unresponsive,,,,12,Arouse to Pain
+492,29300.0,27.92,white,m,4.7175,1,0,0,0,7Q,married,NSP,,,Appropriate,,,,17,Alert
+493,29326.0,43.85,asian,m,1.8148,1,0,0,0,4Q,single,Unknown,67.599998474121094,,Calm,,,,13.899999618530273,Alert
+494,29363.0,78.17,white,f,1.1053,1,0,0,0,3Q,widowed,RCA,84,,Sedated,,,,11,Sedated
+495,29401.0,68.84,white,f,13.4748,1,1,0,0,10Q,married,EPI,79,,Sedated,,,,14.300000190734863,Lethargic
+496,29516.0,68.33,white,f,1.1907,1,0,0,0,3Q,divorced,RCA,,,,,,,11.600000381469727,Alert
+497,29517.0,69.15,white,m,2.3572,1,0,0,0,5Q,married,Not specified,123,,Calm,,,,12.899999618530273,Arouse to Voice
+498,29525.0,71.95,white,f,0.7296,1,0,0,0,1Q,married,Unknown,88,,,,,,12.800000190734863,Sedated
+499,29585.0,83.01,white,f,2.0179,1,1,0,0,5Q,married,Roman Catholic,,,Calm,,,,,Unresponsive
+500,29626.0,50.15,black,f,4.2823,0,1,0,0,7Q,married,Unknown,76.699996948242188,,Sedated,,,,13.699999809265137,Arouse to Pain
+501,29641.0,73.27,white,m,1.8346,0,1,0,0,4Q,married,Roman Catholic,80,,Sedated,,,,7.5,Paralytic Med
+502,29708.0,84.4,white,m,20.4143,1,1,0,0,10Q,married,Roman Catholic,72.800003051757812,183,Appropriate,,,,10.5,Arouse to Pain
+503,29825.0,55.11,white,f,2.8861,1,0,0,0,6Q,single,Unknown,70,,,,,,12.199999809265137,Sedated
+504,29828.0,36.28,white,f,2.7202,1,0,0,0,6Q,married,Episcopalian,71,,Calm,,,,15,Sedated
+505,29857.0,60.53,white,f,3.4387,0,1,0,0,7Q,married,PRO,82,,Unresponsive,,,,13.699999809265137,Unresponsive
+506,29918.0,72.42,white,m,2.3959,1,1,0,0,6Q,married,Protestant,85.900001525878906,,Calm,,,,12.9,Alert
+507,29950.0,82.68,white,f,0.8719,1,1,0,0,2Q,married,RCA,,,Appropriate,,,,11.699999809265137,Arouse to Voice
+508,29971.0,58.8,latino,m,3.1827,0,1,0,0,6Q,married,U,65,165,Agitated,,,591,10.199999809265137,Confused
+509,30018.0,86.63,other,m,4.2543,1,1,0,0,7Q,married,NSP,68,,,,,,12.600000381469727,Alert
+510,30021.0,73.97,white,f,12.0011,1,1,0,0,9Q,na,U,46,,Calm,,,,11.100000381469727,Unresponsive
+511,30040.0,66.32,white,m,2.0212,1,0,0,0,5Q,married,RCA,,,Appropriate,,,,13.800000190734863,Alert
+512,30063.0,69.7,white,m,10.6189,1,0,0,0,9Q,married,Not specified,86.400001525878906,,Calm,,,,12.600000381469727,Alert
+513,30130.0,88.58,white,m,3.68,1,1,0,0,7Q,married,JEW,74.300003051757813,,Calm,,,,11.300000190734863,Alert
+514,30165.0,61.2,white,f,1.475,0,1,0,0,3Q,married,RCA,,,,,,,13.399999618530273,Unresponsive
+515,30189.0,82.87,other,m,11.8663,1,1,0,0,9Q,single,GOR,,,,,,,11.699999809265137,Arouse to Pain
+516,30191.0,84.79,white,f,5.8054,1,1,0,0,8Q,widowed,Unknown,60,,Sedated,,,,12.899999618530273,Arouse to Voice
+517,30218.0,83.48,white,f,2.733,0,1,0,0,6Q,widowed,Unknown,56.799999237060547,,,,,,12.699999809265137,Arouse to Stimul
+518,30306.0,64.09,white,m,1.2636,1,0,0,0,3Q,married,PRO,,,Calm,,,,13,Alert
+519,30356.0,85.26,asian,m,2.2502,0,1,0,0,5Q,na,NSP,60,,,,,,14.199999809265137,Unresponsive
+521,30461.0,80.19,black,f,1.8487,1,0,0,0,4Q,widowed,PRO,70.699996948242187,,Calm,,,,10.399999618530273,Lethargic
+522,30474.0,75.32,white,m,1.5449,1,1,0,0,4Q,widowed,NSP,45.599998474121094,,,,,,10.899999618530273,Arouse to Stimul
+523,30548.0,82.85,asian,m,1.8553,1,0,0,0,4Q,married,Protestant,81.800003051757812,163,Sedated,Intact,Unsteady,,10.600000381469727,Paralytic Med
+524,30664.0,46.46,black,f,11.6707,1,0,0,0,9Q,married,Protestant,114.19999694824219,,Calm,,,,10.899999618530273,Sedated
+525,30690.0,77.31,white,f,2.0476,1,1,0,0,5Q,separated,JEW,,,Restless,,,,9.1999998092651367,Unresponsive
+526,30775.0,82.06,white,f,0.9696,1,1,0,0,2Q,widowed,RCA,44.6,,Calm,Impaired,Unsteady,,12.5,Alert
+527,30821.0,48.71,white,m,10.7141,1,0,0,0,9Q,married,U,97,,Agitated,,,,14.5,Arouse to Voice
+528,30861.0,33.49,latino,m,2.0451,1,1,0,0,5Q,single,NSP,90,,Unresponsive,,,,14.100000381469727,Unresponsive
+529,30907.0,44.32,NA,m,11.3817,1,0,0,0,9Q,married,Other,86.5,,Calm,,,,16,Sedated
+530,30984.0,81.56,white,f,2.4902,0,1,0,0,6Q,married,RCA,,,,,,,10.199999809265137,Unresponsive
+532,31169.0,65.66,black,f,4.8671,1,0,0,0,7Q,single,Not specified,101,,Restless,Intact,Steady,,10.4,Lethargic
+533,31190.0,77.03,white,f,1.1788,0,1,0,0,3Q,widowed,U,60,,Calm,,,,11,Sedated
+534,31206.0,72.5,white,m,0.9813,1,0,0,0,2Q,married,RCA,64.6,170,Appropriate,Intact,Steady,550,13.899999618530273,Alert
+535,31258.0,75.66,white,m,2.9206,1,0,0,0,6Q,married,Roman Catholic,128.80000305175781,,Sedated,,,,14.899999618530273,Lethargic
+538,31472.0,79.54,white,m,3.7117,1,1,0,0,7Q,married,U,57.400001525878906,,Calm,,,,11.600000381469727,Alert
+539,31670.0,78.4,white,m,2.457,0,1,0,0,6Q,single,RCA,55,,Sedated,,,,8.3999996185302734,Sedated
+540,31686.0,88.87,white,f,1.1664,1,1,0,0,3Q,widowed,Not specified,47,,Calm,,,,11.800000190734863,Arouse to Voice
+541,31691.0,74.51,latino,f,1.1392,1,0,0,0,3Q,single,NSP,,,Calm,,,,10.800000190734863,Arouse to Voice
+542,31702.0,61.17,white,f,0.8427,1,0,0,0,2Q,divorced,RCA,,,Calm,,,,9.6000003814697266,Alert
+543,31742.0,78.64,white,f,0.9317,0,1,0,0,2Q,single,JEW,65.5,,,,,,,Arouse to Pain
+544,31845.0,76.39,white,f,1.7234,0,1,0,0,4Q,married,RCA,90,,Unresponsive,,,,15.399999618530273,Arouse to Pain
+545,31864.0,77.05,white,m,1.3182,1,1,0,0,3Q,married,RCA,77,,,,,,8.6000003814697266,Other/Remarks
+546,31950.0,76.97,white,f,1.8207,1,1,0,0,4Q,widowed,NSP,63,,Agitated,,,,12.600000381469727,Alert
+547,31984.0,72.28,white,f,3.9531,1,0,0,0,7Q,married,OTR,,,Appropriate,,,,10.5,Alert
+548,31985.0,74.48,white,m,9.88,1,0,0,0,9Q,married,Roman Catholic,68,,Agitated,,,,14.600000381469727,Sedated
+550,31998.0,56.99,white,m,13.9419,1,0,0,0,10Q,single,Unknown,102,,Calm,,,,14.9,Arouse to Pain
+551,32153.0,69.59,white,m,2.8608,1,1,0,0,6Q,na,NSP,117,,Calm,,,,14.5,Alert
+552,32200.0,74.16,white,f,12.8403,0,1,0,0,9Q,na,U,58.5,,Sedated,,,,12.100000381469727,Arouse to Stimul
+553,32240.0,57.65,white,m,8.0746,1,0,0,0,9Q,married,NSP,,,Calm,,,,14.300000190734863,Alert
+554,32241.0,86.79,white,f,1.5971,1,0,0,0,4Q,widowed,NSP,50,,Appropriate,,,,11.100000381469727,Alert
+555,32253.0,78.85,white,m,20.9181,1,1,0,0,10Q,married,RCA,113,,Sedated,,,,12.899999618530273,Sedated
+556,32323.0,67.16,asian,f,1.9963,0,1,0,0,5Q,married,OTR,48.5,,Unresponsive,,,,11.5,Unresponsive
+557,32356.0,61.37,white,m,2.2733,0,1,0,0,5Q,single,Unknown,62.599998474121094,,,,,,12.600000381469727,Sedated
+558,32438.0,51.55,white,m,2.1041,1,1,0,0,5Q,single,Unknown,65.699996948242188,,Sedated,,,,7.9,Sedated
+559,32440.0,70.76,white,f,2.0196,1,1,0,0,5Q,single,Jewish,90,160,Calm,Intact,Unsteady,233,9.6,Sedated
+560,32477.0,71.81,white,f,0.9261,1,0,0,0,2Q,married,OTR,,,Calm,,,,9.6999998092651367,Alert
+561,32513.0,78.83,white,f,3.1812,1,1,0,0,6Q,widowed,Not specified,72.300003051757813,,Calm,,,,11.7,Arouse to Pain
+562,32573.0,78.14,black,f,2.3873,1,0,0,0,5Q,widowed,PRO,,,Sleeping,,,,8.3000001907348633,Alert
+563,32594.0,82.04,white,f,4.1851,0,1,0,0,7Q,married,U,80,,Unresponsive,,,,12.800000190734863,Unresponsive
+564,32676.0,77.96,NA,f,1.0776,1,1,0,0,2Q,na,Unknown,,,Sedated,,,,,Sedated
+565,32706.0,81.09,white,m,1.1704,0,1,0,0,3Q,widowed,NSP,76.5,,Calm,,,,11.199999809265137,Unresponsive
+566,32713.0,53.21,white,m,3.3302,1,0,0,0,7Q,divorced,Other,89.300003051757813,,Calm,,,,10.699999809265137,Alert
+567,32721.0,59.4,black,m,2.0947,1,0,0,0,5Q,married,Not specified,71,,Calm,,,,12.5,Alert
+568,40007.0,47.75,white,f,0.8214,1,0,0,0,2Q,single,Not specified,66,,Appropriate,Intact,Steady,,12.7,Alert
+569,40070.0,72.36,other,f,3.0296,1,0,0,0,6Q,single,Unknown,46.5,,,,,490,13.3,Alert
+570,40205.0,80.77,white,m,0.5816,0,1,0,1,1Q,married,Not specified,101,,,,,545,,Unresponsive
+571,40356.0,70.89,white,m,2.0778,0,1,0,0,5Q,unknown (default),Not specified,79.4,,,Not assessed,Not assessed,519,13.4,Unresponsive
+572,40388.0,74.23,other,m,2.9153,1,0,0,0,6Q,married,Roman Catholic,99.3,173,,Intact,Not assessed,703,12.3,Arouse to Stimulation
+573,40569.0,83.74,white,f,1.8011,1,0,0,0,4Q,divorced,Not specified,60,,,Not assessed,Not assessed,,11,
+574,40882.0,72.24,NA,f,3.0112,0,1,0,0,6Q,widowed,Not specified,80,163,,,Not assessed,472,12.5,Arouse to Pain
+575,40995.0,60.12,black,f,1.6039,1,0,0,0,4Q,divorced,Not specified,123.9,,Inappropriate,,,,13.2,Lethargic
+576,40999.0,65.04,latino,f,2.0436,0,1,0,0,5Q,married,Unknown,104,,,,,470,12.6,
+577,41257.0,52.43,white,f,5.8968,1,0,0,0,8Q,married,Other,61.2,,,Intact,Not assessed,,11,Alert
+578,41286.0,86.15,white,f,1.8973,1,1,0,0,4Q,na,Protestant,40,,,Deferred,Deferred,415,10,Arouse to Stimulation
+580,41744.0,54.44,asian,m,0.8488,0,1,0,0,2Q,married,Not specified,66.1,160,,,,479,11.8,Arouse to Pain
+581,41816.0,46.62,white,f,0.3196,0,1,0,1,1Q,na,Unknown,54.5,,,,,429,11.9,
+582,41874.0,82.56,white,m,0.8454,0,1,0,0,2Q,married,Roman Catholic,70,,,,,569,,Unresponsive
+583,41984.0,60.1,white,m,7.3091,1,0,0,0,8Q,single,Unknown,103,175,,,,463,15.7,Alert
+584,42067.0,71.81,white,m,1.8652,1,1,0,0,4Q,single,Unknown,109.8,,,Impaired,Unsteady,480,10.4,Arouse to Pain
+585,42158.0,66.83,white,m,1.0921,1,0,0,0,3Q,single,Protestant,85,188,Confused,,,,11.6,Alert
+586,42236.0,86.11,white,m,0.9457,1,0,0,0,2Q,married,Roman Catholic,63,,,Intact,Steady,,12.4,Alert
+587,42417.0,62.87,latino,m,8.9922,1,0,0,0,9Q,single,Unknown,75,170,,Impaired,Steady,491,12.3,Arouse to Voice
+588,42444.0,80.77,asian,m,1.8736,1,0,0,0,4Q,married,Not specified,70.4,,,Intact,Unsteady,,12.5,Alert
+589,42457.0,56.8,black,m,0.9474,1,0,0,0,2Q,single,Unknown,98.1,,Appropriate,Intact,Unsteady,,12.5,Alert
+590,42519.0,52.75,white,m,1.8932,1,0,0,0,4Q,single,Not specified,59,170,,Intact,Deferred,,14.6,Alert
+591,43004.0,51.1,white,f,2.1307,0,1,0,0,5Q,married,Jewish,50,,,Not assessed,Unsteady,547,10.2,Unresponsive
+592,43080.0,84.14,white,m,2.3408,1,0,0,0,5Q,married,Not specified,77.5,,,,,,14.1,Alert
+593,43084.0,79.06,white,f,1.5735,0,1,0,0,4Q,married,Unknown,60,,,,,373,12.6,Unresponsive
+594,43150.0,61.66,white,f,18.5468,1,0,0,0,10Q,married,Roman Catholic,118.3,165,,,,500,12.6,Unresponsive
+595,43158.0,66.61,white,m,2.6568,0,1,0,0,6Q,married,Not specified,85.1,,,,,536,15.5,Unresponsive
+596,43160.0,68.87,white,m,0.893,1,0,0,0,2Q,married,Roman Catholic,106.4,180,,,,,14,Alert
+597,43383.0,50.86,white,f,1.2686,1,0,0,0,3Q,married,Unknown,80,157,Restless,,,502,12.9,Arouse to Voice
+598,43452.0,56.87,white,m,2.8399,1,0,0,0,6Q,divorced,Roman Catholic,80.5,,,Intact,Steady,495,11.4,Unresponsive
+599,43472.0,81.62,white,m,14.5823,1,0,0,0,10Q,single,Not specified,86.9,178,,Intact,Unsteady,399,14,Lethargic
+600,43481.0,75.38,other,m,1.9427,1,0,0,0,4Q,married,Not specified,72.3,,,,Unsteady,,14.2,Arouse to Voice
+601,43563.0,79.05,other,m,27.5489,1,1,0,0,10Q,na,Not specified,50.4,157,,,,577,11.2,Unresponsive
+603,43878.0,47.97,latino,m,2.1731,1,0,0,0,5Q,married,Not specified,81,,,Deferred,Deferred,543,12.8,Arouse to Pain
+604,44305.0,68.38,black,m,2.6899,1,0,0,0,6Q,married,Protestant,98.4,,,Intact,Steady,,13.4,Arouse to Voice
+605,44514.0,59.1,other,f,4.6655,0,1,0,0,7Q,na,Unknown,83.5,160,,Intact,Steady,508,12.8,Arouse to Stimulation
+606,44672.0,82.62,black,f,1.4337,1,0,0,0,3Q,married,Protestant,73.4,,,Intact,Steady,,11.8,Alert
+607,44781.0,65.79,white,m,11.0603,1,0,0,0,9Q,single,Not specified,75,,Inappropriate,,,565,12.3,Arouse to Stimulation
+608,44823.0,87.26,white,f,4.0471,1,0,0,0,7Q,married,Roman Catholic,80,,Appropriate,Intact,Steady,600,15,Alert
+609,45619.0,54.01,white,m,1.7162,1,0,0,0,4Q,married,Unknown,88,,Uncooperative,,,,14.1,Lethargic
+610,45703.0,78.78,white,m,16.5483,1,1,0,0,10Q,married,Roman Catholic,87.3,170,,Intact,Steady,596,13,Alert
+611,45865.0,71.2,white,m,1.0376,1,0,0,0,2Q,divorced,Unknown,87.6,170,Appropriate,Intact,Deferred,,13.3,Alert
+612,46058.0,76.22,white,m,1.3001,0,1,0,0,3Q,married,Roman Catholic,72.4,,,Deferred,Not assessed,712,14,Unresponsive
+613,46120.0,74.01,white,m,5.0422,0,1,0,0,8Q,married,Unknown,89.3,180,,Intact,Steady,502,13.4,Unresponsive
+614,46201.0,49.07,NA,f,1.0525,0,1,0,0,2Q,unknown (default),Unknown,69.1,,,,,577,14.1,
+615,46263.0,69.19,white,m,4.8036,1,0,0,0,7Q,married,Protestant,100.1,183,,Deferred,Deferred,466,10.8,Alert
+616,46660.0,63.18,NA,m,1.0633,1,1,0,0,2Q,na,Unknown,77.8,,,,,509,9.9,Unresponsive
+617,46857.0,86.02,white,f,3.9677,1,1,0,0,7Q,single,Roman Catholic,80,160,,Not assessed,Not assessed,478,11.3,Arouse to Pain
+618,46926.0,86.99,white,m,8.5233,1,1,0,0,9Q,single,Unknown,75,173,,Intact,Steady,528,11.6,Unresponsive
+619,46984.0,66.23,latino,m,0.9458,1,0,0,0,2Q,single,Roman Catholic,93.1,,,Intact,Not assessed,,14.5,Alert
+620,46998.0,88.49,white,f,0.7905,1,0,0,0,1Q,single,Unknown,69,,,Impaired,Unsteady,,13,Alert
+621,47058.0,73.88,white,f,6.1751,1,0,0,0,8Q,married,Unknown,94,162.6,,Intact,Steady,366,9.1,
+622,47133.0,68.66,other,m,1.421,1,0,0,0,3Q,married,Not specified,90.4,180,,Intact,Steady,,14,Arouse to Voice
+623,47250.0,69.31,white,f,8.2704,1,0,0,0,9Q,married,Not specified,101,163,Appropriate,,,678,12.4,Unresponsive
+625,47660.0,78.97,white,f,1.7375,1,1,0,0,4Q,widowed,Unknown,66,,,,,434,9.3,Arouse to Stimulation
+627,47909.0,53.81,latino,m,3.92,0,1,0,0,7Q,married,Unknown,95.3,173,Inappropriate,,,570,11.7,Unresponsive
+628,47918.0,46.98,asian,f,2.1725,1,0,0,0,5Q,married,Unknown,64.6,,,Intact,Not assessed,,13.4,Alert
+629,48006.0,87.49,white,f,2.2851,1,0,0,0,5Q,widowed,Unknown,56.8,,,Deferred,Unsteady,,12.7,
+630,48237.0,86.49,white,f,1.9742,1,0,0,0,5Q,widowed,Unknown,56.8,150,,Not assessed,Not assessed,380,9.1,Arouse to Voice
+632,48514.0,61.07,black,f,1.2383,1,0,0,0,3Q,widowed,Protestant,100,,,Intact,Not assessed,,12.1,Alert
+633,48637.0,88.61,white,f,4.1902,1,0,0,0,7Q,unknown (default),Unknown,59.5,,,Intact,Unsteady,,12.5,
+634,48710.0,88.9,white,f,1.0831,1,0,0,0,2Q,widowed,Unknown,44.4,,Anxious,,Unsteady,,12.5,Alert
+635,48913.0,87.42,white,f,6.0576,1,1,0,0,8Q,widowed,Not specified,67.9,163,Appropriate,Intact,Unsteady,,11.5,Lethargic
+636,49058.0,83.98,white,m,0.5749,0,1,0,0,1Q,married,Protestant,89.3,,,,,445,,Unresponsive
+637,49140.0,78.69,white,f,1.1457,0,1,0,0,3Q,widowed,Unknown,58,,Appropriate,Intact,,510,10.6,Unresponsive
+638,49144.0,88.17,white,f,2.0844,1,0,0,0,5Q,single,Greek Orthodox,58.9,152,,Impaired,Unsteady,,11.5,Lethargic
+639,49255.0,82.81,white,f,22.8697,1,1,0,0,10Q,married,Unknown,87,,,Not assessed,Not assessed,254,13.4,
+640,49290.0,61.73,latino,f,4.8252,1,0,0,0,7Q,separated,Other,26.6,157,Sleeping/Sedated,Impaired,,575,9.2,Arouse to Stimulation
+641,49499.0,82.35,white,f,4.2172,1,0,0,0,7Q,divorced,Not specified,65.4,163,,,,,11.8,Alert
+642,49514.0,72.15,white,f,1.4899,1,0,0,0,3Q,married,Not specified,116.7,,,Impaired,Not assessed,,11.3,Alert
+643,49575.0,69.62,other,f,0.2892,0,1,0,1,1Q,married,Roman Catholic,65.7,,,,,497,,Unresponsive
+644,49586.0,82.54,white,m,3.1009,1,1,0,0,6Q,single,Not specified,57,163,,Intact,Unsteady,,13.3,Arouse to Voice
+645,49622.0,42.41,white,m,3.8854,1,0,0,0,7Q,single,Unknown,94,,,Impaired,Not assessed,,13.2,Alert
+646,49654.0,80.8,white,m,3.7854,1,1,0,0,7Q,married,Not specified,73.2,,,,,442,12.1,Unresponsive
+647,49976.0,77.46,white,m,0.6555,1,0,0,0,1Q,divorced,Protestant,107,,,Intact,Steady,,14.9,Alert
+648,50017.0,85.8,white,m,1.2104,1,1,0,0,3Q,married,Roman Catholic,69.9,,,Impaired,Unsteady,,12.5,Alert
+649,50033.0,57.18,white,f,0.8,1,0,0,0,1Q,na,Not specified,65.7,,Appropriate,Intact,Steady,,11.7,Alert
+650,50083.0,67.49,white,m,1.1512,0,1,0,0,3Q,married,Protestant,102,,,Not assessed,Not assessed,558,,Unresponsive
+651,50137.0,61.7,white,m,1.9234,1,0,0,0,4Q,single,Not specified,108.2,,Appropriate,Intact,Steady,,13.6,Alert
+652,50259.0,76.49,white,f,0.3775,0,1,0,1,1Q,married,Not specified,68.4,168,,Intact,Steady,638,8.3,Unresponsive
+653,50289.0,58.19,white,m,1.6152,1,0,0,0,4Q,single,Unknown,80,183,Sleeping/Sedated,Deferred,Deferred,501,14.8,Arouse to Pain
+654,50366.0,54.15,other,m,3.8518,1,0,0,0,7Q,single,Unknown,59.6,157,,,,497,14.4,Arouse to Pain
+655,50486.0,70.34,asian,m,1.1634,0,1,0,0,3Q,married,Unknown,56.5,,,,,502,11.3,Unresponsive
+656,50575.0,70.35,white,f,2.0352,1,0,0,0,5Q,widowed,Unknown,82.5,,,Impaired,Not assessed,,12.7,Lethargic
+657,50640.0,64.57,white,m,2.9344,1,1,0,0,6Q,married,Not specified,111.2,,,Intact,Steady,,13.5,Alert
+658,50648.0,52.21,white,m,1.0128,1,1,0,0,2Q,married,Roman Catholic,82.6,,,Impaired,Steady,669,9.9,Alert
+659,50664.0,49.26,white,f,1.4273,0,1,0,0,3Q,married,Roman Catholic,55,,Inappropriate,,,450,13.1,Arouse to Pain
+660,50827.0,85.82,white,f,7.2043,1,1,0,0,8Q,married,Unknown,40.3,,,Intact,Unsteady,455,8.5,Arouse to Pain
+661,51109.0,69.79,white,m,1.1784,1,0,0,0,3Q,married,Roman Catholic,105.4,,,Intact,Steady,,13.1,Alert
+662,51393.0,71.98,white,m,0.5328,0,1,0,1,1Q,married,Unknown,78.6,,,,,632,16.8,Unresponsive
+663,51658.0,79.46,white,f,9.5068,1,1,0,0,9Q,widowed,Unknown,60,160,,,,636,10.1,Arouse to Stimulation
+664,51728.0,85.84,white,m,4.3139,0,1,0,0,7Q,married,Unknown,72,,,,,437,13.3,Arouse to Pain
+665,51858.0,80.75,white,f,6.2942,1,1,0,0,8Q,married,Protestant,80,170,,,,529,12.9,Unresponsive
+666,52046.0,88.85,white,f,2.5162,1,1,0,0,6Q,widowed,Not specified,87.5,,,Impaired,Not assessed,,13.2,Alert
+667,52329.0,71.8,white,m,0.9495,1,0,0,0,2Q,divorced,Roman Catholic,86,,,,,,12.2,Alert
+668,52330.0,47.16,asian,f,17.046,1,0,0,0,10Q,married,Roman Catholic,80,157,Appropriate,Intact,Steady,354,10.5,Arouse to Voice
+669,52582.0,36.11,white,m,2.0116,1,0,0,0,5Q,single,Roman Catholic,99.4,191,,Intact,Steady,,13.9,Alert
+670,52750.0,48.74,NA,m,0.4461,0,1,0,0,1Q,single,Unknown,56,,,,,506,,
+671,53119.0,82.76,black,m,4.7385,1,1,0,0,7Q,married,Protestant,57,178,,Intact,Steady,488,6,Unresponsive
+672,53322.0,84.98,NA,m,1.3666,1,0,0,0,3Q,na,Unknown,85.4,,,Intact,Not assessed,,15.4,Alert
+673,53392.0,69.49,white,f,1.9808,1,1,0,0,5Q,married,Roman Catholic,57,,,,,,10.9,Alert
+674,53549.0,82.55,white,m,4.1419,1,0,0,0,7Q,married,Unknown,57,,,Intact,Steady,,12.2,Lethargic
+675,53567.0,57.85,white,f,13.8151,1,0,0,0,10Q,married,Unknown,115.6,160,,Intact,,570,10.7,Arouse to Pain
+676,53679.0,79.26,white,m,2.4585,1,0,0,0,6Q,married,Not specified,75,,Confused,,,,14.3,Alert
+677,53763.0,70.94,white,m,7.5773,1,0,0,0,8Q,married,Other,119,178,,Deferred,Deferred,,11.5,Alert
+678,54050.0,53.45,white,m,1.1789,0,1,0,0,3Q,single,Roman Catholic,90.7,,,Impaired,Not assessed,481,10.5,
+679,54073.0,64.31,other,m,10.332,1,0,0,0,9Q,married,Unknown,64.8,,,Intact,Not assessed,12,11.8,
+681,54219.0,78.66,white,f,0.3823,0,1,0,1,1Q,married,Not specified,72,,,,,490,,Unresponsive
+682,54254.0,86.53,white,f,1.5123,1,1,0,0,3Q,married,Unknown,54.5,,Sleeping,Intact,Steady,604,10.2,Arouse to Stimulation
+683,54390.0,55.88,white,m,4.2527,1,0,0,0,7Q,single,Not specified,94.8,180,,,,624,14.2,Arouse to Stimulation
+684,54643.0,82.63,black,f,1.0334,1,0,0,0,2Q,married,Roman Catholic,76,,,Deferred,Deferred,,12,Alert
+685,54716.0,65.3,white,m,0.304,0,1,0,1,1Q,married,Unknown,115.3,,,,,590,,Unresponsive
+686,54775.0,75.28,NA,m,12.6708,1,1,0,0,9Q,na,Not specified,74.8,173,,Intact,Unsteady,503,9.8,Arouse to Pain
+687,54812.0,54.8,white,m,1.3131,0,1,0,1,3Q,married,Unknown,98.4,,,,,591,16.6,Unresponsive
+688,55149.0,79.88,white,f,1.9657,1,0,0,0,5Q,widowed,Not specified,67.8,,,Intact,Steady,223,12.1,Arouse to Stimulation
+689,55260.0,49.88,white,m,5.3531,1,0,0,0,8Q,single,Not specified,80,165,Sleeping/Paralyzed,Impaired,,613,10.2,Unresponsive
+690,55529.0,73.81,white,m,0.6897,1,1,0,0,1Q,married,Not specified,63,168,Appropriate,Not assessed,Not assessed,548,11.7,Alert
+691,55682.0,78.75,white,m,1.1917,1,0,0,0,3Q,widowed,Protestant,97,,,Impaired,Steady,,17.7,Alert
+692,55688.0,78.19,white,m,1.1412,0,1,0,0,3Q,married,Unknown,74,,,,,435,,Unresponsive
+693,55843.0,64.64,white,m,0.8479,1,0,0,0,2Q,single,Unknown,88,,,Impaired,Unsteady,,14.3,Alert
+694,55963.0,67.06,NA,f,1.3678,0,1,0,0,3Q,na,Unknown,77.6,,,,,664,,Unresponsive
+695,56052.0,85.82,white,m,2.1441,1,1,0,0,5Q,married,Not specified,88.4,173,Confused,Deferred,Deferred,,14.2,Alert
+696,56155.0,62.62,black,m,10.3688,1,1,0,0,9Q,married,Not specified,78.7,,,Intact,Not assessed,790,12.7,Arouse to Voice
+697,56385.0,51.13,white,m,4.0714,1,0,0,0,7Q,single,Protestant,70.5,173,Appropriate,Impaired,Not assessed,,13.5,Alert
+698,56391.0,79.59,asian,m,5.0536,1,0,0,0,8Q,married,Not specified,57.3,170,,Intact,Steady,,9.5,Lethargic
+699,56549.0,82.58,white,m,2.9694,1,0,0,0,6Q,married,Episcopalian,77.7,,,Intact,Unsteady,598,11.4,Unresponsive
+700,56634.0,55.77,white,m,14.9715,1,1,0,0,10Q,married,Unknown,82,170,,Intact,Steady,624,12.3,Arouse to Voice
+701,56788.0,37.2,other,f,10.7627,1,0,0,0,9Q,married,Unknown,67.1,152,,,,475,9.6,Unresponsive
+702,56963.0,68.98,black,f,6.7174,0,1,0,0,8Q,single,Protestant,75,168,Confused,Impaired,Unsteady,499,8.1,Alert
+703,57023.0,69.16,other,f,9.7427,1,0,0,0,9Q,divorced,Unknown,79.9,157,,Intact,Steady,0,11.7,Unresponsive
+705,57619.0,64.17,NA,m,9.6097,1,0,0,0,9Q,married,Roman Catholic,74,168,,,,500,13.1,
+706,57697.0,78.51,white,m,3.3184,1,1,0,0,7Q,married,Not specified,107.5,,,,,,12.7,Alert
+707,57731.0,61.52,NA,m,5.5016,1,0,0,0,8Q,married,Not specified,85,183,,,,672,13.1,Unresponsive
+708,57786.0,60.0,white,f,2.1731,0,1,0,0,5Q,married,Unknown,60,,,Not assessed,Not assessed,496,15.3,Unresponsive
+709,57853.0,85.12,white,m,1.1338,1,1,0,0,3Q,widowed,Unknown,75,,,,,516,12.4,
+710,57910.0,84.23,asian,m,3.7209,0,1,0,0,7Q,married,Unknown,64,180,,Intact,Unsteady,481,12,Unresponsive
+711,57997.0,71.35,NA,m,3.8838,1,0,0,0,7Q,na,Unknown,80,170,,,,454,13.4,
+712,58271.0,53.86,NA,f,2.072,1,0,0,0,5Q,single,Unknown,105,,,Intact,Steady,480,13.3,Arouse to Stimulation
+713,58377.0,82.52,white,f,9.0554,1,0,0,0,9Q,widowed,Roman Catholic,72.6,165,,Intact,Steady,504,7.3,Unresponsive
+714,58549.0,53.44,NA,f,0.9194,0,1,0,0,2Q,na,Unknown,71,,,Intact,Unsteady,326,6.7,Unresponsive
+715,58705.0,86.87,white,m,0.5862,0,1,0,0,1Q,widowed,Jewish,78.7,,,Deferred,Deferred,443,,Unresponsive
+716,58839.0,57.83,white,m,4.1317,1,0,0,0,7Q,married,Unknown,100.7,185,,Intact,Steady,550,13.8,Arouse to Stimulation
+717,59273.0,85.95,white,f,2.8855,0,1,0,0,6Q,married,Not specified,53,165,Appropriate,Impaired,Unsteady,403,11.1,Unresponsive
+718,59307.0,76.82,white,f,10.8674,1,1,0,0,9Q,widowed,Not specified,84.5,165,Sleeping/Sedated,Intact,Steady,493,11,Arouse to Voice
+719,59348.0,83.84,white,f,1.271,0,1,0,0,3Q,married,Unknown,54.7,,,,,512,,Arouse to Stimulation
+720,59403.0,71.85,white,f,7.9338,1,0,0,0,9Q,married,Unknown,70,,,,,576,14.3,Arouse to Stimulation
+721,59453.0,60.93,white,m,0.7298,1,1,0,0,1Q,na,Unknown,52,,Appropriate,Impaired,Not assessed,,12,Alert
+722,59462.0,75.36,white,f,4.042,1,0,0,0,7Q,married,Roman Catholic,84.6,165,,Intact,Unsteady,,11.1,Alert
+723,59585.0,84.72,white,m,5.9266,1,1,0,0,8Q,married,Roman Catholic,78.1,173,,Intact,Steady,,12.8,Lethargic
+724,59590.0,69.15,white,m,1.0853,1,0,0,0,3Q,married,Protestant,60,,,Intact,Unsteady,,12.6,
+725,59831.0,65.09,latino,f,1.9563,0,1,0,0,5Q,separated,Unknown,85,,,,,488,14.7,Unresponsive
+726,59864.0,68.09,white,f,23.1463,1,1,0,0,10Q,married,Not specified,70,170,,Intact,Steady,594,10.3,Unresponsive
+727,59960.0,83.1,white,m,2.2244,1,1,0,0,5Q,widowed,Roman Catholic,81.7,,,Intact,Unsteady,,9.6,
+728,60207.0,84.89,white,f,1.9584,1,0,0,0,5Q,widowed,Roman Catholic,57.1,,,Impaired,Unsteady,482,11.5,
+729,60653.0,44.44,white,m,4.9609,1,0,0,0,8Q,divorced,Not specified,70.5,175,Appropriate,Deferred,Unsteady,559,15.2,Alert
+731,61173.0,84.72,white,f,1.1459,1,1,0,0,3Q,widowed,Jewish,83,,,,,,11.3,Alert
+732,61207.0,55.54,white,m,7.7833,1,0,0,0,9Q,married,Unknown,91,178,Sleeping/Sedated,,,570,12.8,Arouse to Stimulation
+733,61301.0,76.8,white,f,1.2325,1,0,0,0,3Q,divorced,Roman Catholic,62.3,,,Impaired,Not assessed,,12.9,
+734,61521.0,83.44,white,f,1.6819,1,1,0,0,4Q,widowed,Jewish,53.7,155,,Intact,Unsteady,463,9.5,Arouse to Stimulation
+736,61828.0,59.26,white,f,6.6074,0,1,0,0,8Q,married,Unknown,82,163,Inappropriate,Intact,Steady,588,16,Awake/Unresponsive
+737,61877.0,58.25,black,f,15.6574,1,0,0,0,10Q,married,Unknown,73,162.5,,Intact,Steady,380,14.9,Arouse to Stimulation
+738,61926.0,53.07,white,m,0.8605,1,0,0,0,2Q,married,Unknown,161,170,Appropriate,,,,12.2,Alert
+739,61954.0,86.42,white,m,0.2151,0,1,0,1,1Q,married,Not specified,84,,,,,630,,Unresponsive
+740,61991.0,51.13,other,f,1.5891,1,0,0,0,4Q,married,Unknown,122.9,,,,,510,11.2,
+741,62087.0,58.17,white,m,6.9062,1,0,0,0,8Q,divorced,Unknown,96,183,,,,559,15.1,Unresponsive
+742,62183.0,66.14,white,m,4.8284,1,1,0,0,7Q,married,Roman Catholic,89.8,180,,Not assessed,Not assessed,564,12.5,Arouse to Voice
+743,62305.0,80.03,white,f,3.997,1,1,0,0,7Q,married,Protestant,50.2,157,,Impaired,,,11.7,Alert
+744,62466.0,81.94,white,m,1.5713,1,1,0,0,4Q,single,Not specified,59.9,185,Appropriate,Intact,Unsteady,,12.3,Alert
+745,63074.0,68.93,white,m,4.9085,1,0,0,0,7Q,married,Unknown,94,175,Appropriate,,,,12,Alert
+746,63130.0,76.89,asian,f,11.2497,1,0,0,0,9Q,widowed,Buddhist,56,152,,Intact,Unsteady,489,11.7,Alert
+747,63418.0,81.62,white,m,0.7489,1,0,0,0,1Q,married,Unknown,65.2,180,,Intact,Steady,,13.1,Alert
+748,63492.0,74.63,white,f,1.976,0,1,0,0,5Q,married,Roman Catholic,53.5,,,Deferred,Deferred,438,11.3,Arouse to Stimulation
+749,63764.0,88.99,white,f,0.9202,1,0,0,0,2Q,widowed,Unknown,62.3,165,Appropriate,Intact,Not assessed,,11.6,Alert
+750,63899.0,80.74,white,f,1.1091,1,0,0,0,3Q,married,Not specified,58.9,163,Appropriate,Impaired,Deferred,,11.2,Arouse to Stimulation
+751,64004.0,55.51,white,m,1.4941,1,0,0,0,3Q,single,Not specified,122.5,,,Intact,Steady,,15.2,Alert
+752,64036.0,45.84,black,m,13.487,1,0,0,0,10Q,married,Not specified,109,180,,Intact,Steady,440,14.8,Unresponsive
+753,64260.0,79.14,white,m,7.8062,1,1,0,0,9Q,married,Not specified,99.5,,,Intact,Steady,,16.2,Alert
+754,64410.0,33.94,white,m,0.3678,1,0,0,0,1Q,single,Unknown,93.2,,,Intact,Steady,549,,Alert
+755,64538.0,55.81,black,m,19.3222,1,0,0,0,10Q,single,Unknown,63.4,183,,Impaired,Not assessed,500,10.6,Awake/Unresponsive
+756,64652.0,79.06,white,f,4.7376,1,1,0,0,7Q,widowed,Not specified,49.6,152,Sleeping,,,558,11.9,Arouse to Stimulation
+757,64701.0,64.74,white,f,1.8757,1,0,0,0,4Q,married,Jewish,48.9,,,Intact,Unsteady,,11.9,Alert
+758,64996.0,72.99,white,m,22.8504,1,0,0,0,10Q,married,Roman Catholic,91.7,170,,Intact,Steady,492,13.1,
+759,65089.0,69.83,white,f,1.8851,1,0,0,0,4Q,married,Unknown,64,,,,,421,11.2,Arouse to Stimulation
+760,65442.0,71.46,white,f,2.1564,0,1,0,0,5Q,widowed,Roman Catholic,63.7,,,Intact,Not assessed,431,10.6,
+761,65538.0,87.77,white,f,3.8378,1,1,0,0,7Q,widowed,Christian Scientist,55.1,,Confused,,Not assessed,,10.8,Lethargic
+762,65575.0,85.44,asian,m,1.0059,1,0,0,0,2Q,married,Buddhist,47.3,,Confused,Impaired,Unsteady,460,14.4,Alert
+764,65916.0,83.28,white,f,6.929,0,1,0,0,8Q,single,Unknown,70,,,,,480,9.1,Unresponsive
+765,65970.0,58.21,black,m,5.0942,0,1,0,0,8Q,single,Not specified,77.2,,,,,540,15,Unresponsive
+766,66072.0,79.06,white,f,1.1281,0,1,0,0,3Q,widowed,Unknown,66.3,,,,,524,13,
+767,66080.0,72.25,white,m,1.2561,1,1,0,0,3Q,married,Protestant,70,185,Confused,Impaired,Steady,,12.6,Alert
+768,66438.0,75.66,white,f,0.6727,0,1,0,1,1Q,widowed,Roman Catholic,57,,Sleeping,Intact,Steady,348,11.5,Unresponsive
+769,66507.0,63.71,white,f,7.1165,1,0,0,0,8Q,married,Roman Catholic,52,157,,Intact,Steady,515,11.7,Unresponsive
+770,66532.0,62.8,white,f,2.6213,1,0,0,0,6Q,married,Roman Catholic,124,160,Confused,Impaired,,550,9.7,Alert
+771,66662.0,61.05,white,m,11.5338,1,0,0,0,9Q,married,Not specified,95.4,,,Deferred,Deferred,607,14,Unresponsive
+772,66690.0,62.68,other,m,4.4013,0,1,0,0,7Q,na,Not specified,74.3,,,,,462,13,Unresponsive
+773,67285.0,78.69,white,f,0.9298,1,0,0,0,2Q,married,Roman Catholic,66.4,,Anxious,Impaired,Unsteady,,12.3,Alert
+774,67451.0,60.34,latino,m,1.0973,1,0,0,0,3Q,single,Unknown,96.3,,,Not assessed,Not assessed,,13.5,Alert
+775,67520.0,81.76,NA,f,3.1529,1,0,0,0,6Q,divorced,Protestant,65,168,,,,,12.9,Alert
+776,67636.0,88.06,white,m,2.0484,1,1,0,0,5Q,widowed,Not specified,87.7,173,Appropriate,,,565,13.4,Arouse to Voice
+777,67675.0,52.02,white,m,1.1288,1,0,0,0,3Q,single,Roman Catholic,96.6,,,Intact,Steady,,12.4,Alert
+778,67813.0,79.89,white,m,0.5357,0,1,0,1,1Q,married,Roman Catholic,1,,,Impaired,Not assessed,707,,
+779,67843.0,37.67,black,m,1.5422,1,0,0,0,4Q,single,Not specified,95.9,,,Intact,Steady,,,Alert
+780,67996.0,50.66,white,m,2.0873,0,1,0,0,5Q,married,Unknown,100,,,,,580,13.3,Unresponsive
+781,68137.0,60.28,latino,f,0.7762,1,0,0,0,1Q,single,Not specified,100,,,,Not assessed,,12.1,Alert
+782,68255.0,40.49,asian,m,21.6219,1,0,0,0,10Q,single,Not specified,76.9,170,,Intact,Steady,432,13.6,Arouse to Voice
+783,68295.0,53.84,latino,f,14.1244,1,0,0,0,10Q,single,Not specified,75,163,,,,455,11.8,Unresponsive
+784,68420.0,66.99,other,m,2.9131,1,1,0,0,6Q,married,Hindu,88,,Sleeping,Not assessed,Not assessed,561,12.8,Arouse to Stimulation
+785,68464.0,83.88,white,m,3.4071,1,0,0,0,7Q,single,Roman Catholic,78.4,178,Combative,,,624,12.5,Arouse to Voice
+786,68629.0,65.74,white,m,18.6194,1,0,0,0,10Q,married,Unknown,82,178,Sleeping/Paralyzed,Impaired,Unsteady,561,8.9,Unresponsive
+787,68849.0,36.79,asian,f,2.5426,1,0,0,0,6Q,married,Unknown,,,,,,,9.2,
+788,68942.0,82.11,white,f,0.895,0,1,0,0,2Q,single,Unknown,78.2,,,,,512,,Unresponsive
+790,69082.0,73.31,white,f,10.3829,1,0,0,0,9Q,divorced,Not specified,55,,,,,462,10.4,Arouse to Stimulation
+791,69104.0,51.29,NA,m,10.2239,1,0,0,0,9Q,na,Unknown,61.5,168,,,,515,14,Arouse to Stimulation
+794,69684.0,42.5,white,m,7.0917,1,0,0,0,8Q,married,Roman Catholic,78.5,173,,,,506,15.5,Alert
+795,69941.0,30.79,NA,f,8.3065,0,1,0,0,9Q,na,Unknown,91.3,165,,,,420,9,Unresponsive
+796,70115.0,68.98,white,m,2.6642,1,0,0,0,6Q,married,Roman Catholic,64,,,,,504,14.5,Arouse to Pain
+797,70332.0,86.67,white,f,1.2901,1,0,0,0,3Q,widowed,Not specified,62.7,,,Intact,Steady,,13.6,Alert
+798,70427.0,50.32,asian,f,8.3799,1,0,0,0,9Q,single,Not specified,64,152,,,,582,12.1,Unresponsive
+799,70991.0,81.03,white,m,0.973,1,0,0,0,2Q,married,Other,60.3,,,Intact,Steady,,12.8,Alert
+800,71039.0,35.91,white,m,0.8107,1,0,0,0,1Q,married,Unknown,65.8,170,,Intact,Unsteady,,13.5,Arouse to Voice
+801,71304.0,84.19,white,f,0.7664,1,1,0,0,1Q,widowed,Unknown,72.1,160,,Impaired,Deferred,,14.4,Alert
+802,71328.0,70.05,black,m,2.2755,1,0,0,0,5Q,married,Protestant,90.1,,,Intact,Steady,,13.5,
+803,71339.0,74.68,white,m,4.982,0,1,0,0,8Q,married,Unknown,109.4,178,,Not assessed,Not assessed,504,9.8,Unresponsive
+804,71386.0,81.97,white,m,1.8646,1,0,0,0,4Q,widowed,Unknown,72,,,Impaired,Steady,,13,Alert
+805,71433.0,50.64,white,m,8.6534,1,1,0,0,9Q,single,Not specified,143,183,,Intact,Steady,525,12.9,Unresponsive
+806,71500.0,70.33,white,m,0.7844,0,1,0,0,1Q,married,Unknown,90,,,,,,,
+807,71555.0,66.55,white,m,3.0502,1,0,0,0,6Q,single,Unknown,98.4,185,,Impaired,,,14,Alert
+808,71559.0,66.66,white,m,1.3471,1,0,0,0,3Q,married,Unknown,72.4,,,,,524,14.2,Arouse to Pain
+809,71792.0,74.47,white,m,16.493,1,0,0,0,10Q,single,Roman Catholic,105,185,,Not assessed,Not assessed,511,14.7,Arouse to Voice
+810,71869.0,51.96,other,m,3.878,1,0,0,0,7Q,married,Roman Catholic,95,,,Not assessed,Not assessed,514,4.6,Awake/Unresponsive
+811,71986.0,67.49,white,m,0.8346,1,0,0,0,2Q,married,Unknown,115,189,,Impaired,Steady,,15.1,Alert
+812,72048.0,75.42,white,m,7.6434,0,1,0,0,8Q,divorced,Roman Catholic,82.1,168,Appropriate,,,525,10.5,Unresponsive
+813,72172.0,40.07,NA,m,1.7315,0,1,0,0,4Q,married,Not specified,72.8,,,,,541,10.8,Unresponsive
+814,72416.0,76.53,white,m,0.8052,1,0,0,0,1Q,single,Not specified,77.3,,,Intact,Steady,,13.8,Alert
+815,72454.0,66.85,white,m,6.6319,1,0,0,0,8Q,married,Not specified,68,,,Intact,Steady,414,12.4,Arouse to Stimulation
+816,72627.0,78.09,white,m,10.9672,1,1,0,0,9Q,married,Not specified,90,178,,,,482,11.5,Arouse to Pain
+817,72992.0,56.81,black,m,1.8524,0,1,0,0,4Q,separated,Protestant,124.4,188,Sleeping/Paralyzed,Deferred,Steady,654,9.6,Unresponsive
+818,73497.0,49.46,black,m,1.198,1,0,0,0,3Q,married,Unknown,96,,,Intact,Steady,,13.3,Alert
+819,73683.0,68.72,white,f,1.0861,1,0,0,0,3Q,married,Not specified,55.4,,,Intact,Unsteady,,12.8,Alert
+820,73740.0,46.29,white,f,9.7776,0,1,0,0,9Q,single,Not specified,108.8,170,,,,476,12.2,Arouse to Pain
+821,74009.0,63.8,white,f,12.8605,1,1,0,0,9Q,married,Unknown,116.3,180,,,,510,9.3,Arouse to Stimulation
+822,74012.0,69.2,asian,f,1.1349,0,1,0,0,3Q,married,Not specified,53,,,Intact,Steady,404,15,Unresponsive
+823,74032.0,66.54,white,f,16.8625,1,0,0,0,10Q,married,Unknown,70,160,,Intact,Steady,423,11.9,Unresponsive
+824,74286.0,64.86,other,f,9.9196,1,0,0,0,9Q,married,Unknown,61.5,159,,,,528,12.9,Arouse to Pain
+826,74426.0,57.97,white,f,1.0561,1,0,0,0,2Q,married,Roman Catholic,60,152,,Intact,Steady,,11.8,Lethargic
+827,74454.0,64.49,white,m,0.4631,0,1,0,1,1Q,married,Roman Catholic,90,,,,,621,,Unresponsive
+828,74642.0,46.49,white,f,1.6637,1,0,0,0,4Q,divorced,Roman Catholic,77,,,Intact,Not assessed,,13.1,Alert
+829,74711.0,51.97,white,m,0.8609,0,1,0,0,2Q,single,Not specified,82.1,173,,,,469,12.8,
+830,74739.0,77.67,white,f,0.362,1,0,0,0,1Q,married,Roman Catholic,68.8,,,Intact,Unsteady,,,Alert
+831,74950.0,60.07,asian,f,2.0286,1,0,0,0,5Q,married,Unknown,78.4,,,Intact,Not assessed,,8.7,Alert
+832,75159.0,75.19,white,f,1.7799,1,1,0,0,4Q,married,Not specified,61.5,,,Not assessed,Not assessed,,13.1,Lethargic
+833,75670.0,85.95,latino,m,1.0762,0,1,0,0,2Q,na,Unknown,70,,,,,495,12.4,Unresponsive
+835,75894.0,61.06,black,m,3.1694,1,0,0,0,6Q,married,Not specified,73,,,,,,8,Arouse to Voice
+836,76096.0,69.73,white,m,9.0872,1,1,0,0,9Q,married,Unknown,90.8,188,Sleeping/Sedated,,,745,11.3,Arouse to Stimulation
+837,76191.0,67.42,other,m,0.9446,1,0,0,0,2Q,married,Protestant,69,,,Intact,Steady,,9.3,Alert
+838,76219.0,79.34,white,f,2.0748,1,1,0,0,5Q,single,Roman Catholic,56.5,152,,Not assessed,Not assessed,422,,Arouse to Stimulation
+839,76332.0,50.25,white,m,1.2881,1,0,0,0,3Q,married,Not specified,118,180,,Intact,Not assessed,,16.6,Alert
+840,76346.0,86.89,white,f,1.0379,0,1,0,0,2Q,widowed,Unknown,78.5,,,,,509,,Unresponsive
+841,76390.0,80.0,white,f,12.6463,1,1,0,0,9Q,widowed,Unknown,100,168,,,,476,13.3,Arouse to Voice
+842,76480.0,82.42,white,f,1.8524,1,1,0,0,4Q,divorced,Roman Catholic,72,,Appropriate,Impaired,,,8.4,Alert
+843,76654.0,51.28,white,f,1.6859,1,1,0,0,4Q,single,Roman Catholic,48,,,Intact,Not assessed,482,11,Unresponsive
+844,76665.0,75.51,white,m,2.2404,1,1,0,0,5Q,married,Unknown,92.4,173,,Intact,Deferred,501,11.1,Alert
+845,76761.0,34.14,white,m,3.8991,1,0,0,0,7Q,married,Jewish,66.3,178,,Intact,Steady,,13.9,Alert
+846,76811.0,86.15,white,f,0.9733,0,1,0,0,2Q,widowed,Unknown,65,,,Impaired,Unsteady,463,,Unresponsive
+848,77039.0,74.92,white,f,1.0837,1,1,0,0,2Q,widowed,Roman Catholic,46.6,,Apprehensive,Impaired,Unsteady,,11.8,Alert
+849,77218.0,71.84,white,f,5.3424,0,1,0,0,8Q,separated,Roman Catholic,79.5,157,Sleeping,,,490,14.4,Arouse to Pain
+850,77252.0,80.67,white,f,0.9567,1,1,0,0,2Q,married,Unknown,42.3,,,,,,11.6,Arouse to Pain
+851,77336.0,68.31,asian,m,1.2642,0,1,0,0,3Q,married,Other,65,,,,,524,,Unresponsive
+852,77689.0,47.71,white,m,1.7708,0,1,0,0,4Q,married,Unknown,169.3,,,,,571,14.8,Unresponsive
+853,77731.0,72.53,white,f,2.584,1,0,0,0,6Q,married,Roman Catholic,78.3,,,,,,13.6,Alert
+854,77834.0,74.41,white,f,0.7747,1,0,0,0,1Q,married,Roman Catholic,71,159,,Intact,Steady,,10.9,Alert
+855,78007.0,75.11,white,f,0.6466,1,0,0,0,1Q,married,Other,104.7,,Appropriate,Intact,Steady,,13.2,Alert
+856,78158.0,82.2,white,m,9.9072,1,0,0,0,9Q,na,Unknown,82.4,,,,,550,12.3,Arouse to Pain
+857,78204.0,47.19,white,f,8.0124,1,0,0,0,9Q,married,Not specified,84,168,,,,758,10.2,Arouse to Stimulation
+858,78229.0,63.43,white,m,1.2731,1,0,0,0,3Q,divorced,Roman Catholic,63,,Appropriate,Impaired,Deferred,,13.5,Alert
+859,78318.0,64.46,white,m,0.924,0,1,0,0,2Q,single,Jewish,68,,,Impaired,Deferred,492,12.6,Alert
+861,78839.0,72.41,white,m,3.9413,1,0,0,0,7Q,married,Jewish,72,,,,,804,11.6,
+862,78948.0,87.0,white,m,1.2872,1,0,0,0,3Q,single,Roman Catholic,82,,,,,,12.8,
+863,79137.0,84.0,white,f,0.5509,1,0,0,0,1Q,widowed,Roman Catholic,62.8,,,Intact,Steady,,10.8,Alert
+864,79228.0,63.41,white,m,25.1899,1,1,0,0,10Q,married,Unknown,100,186,,,,607,15.1,Unresponsive
+865,79501.0,69.97,white,m,2.1363,0,1,0,0,5Q,married,Roman Catholic,90.5,175,Sleeping/Sedated,,,587,,Unresponsive
+866,79605.0,77.54,white,m,1.878,1,1,0,0,4Q,married,Protestant,97,,,Not assessed,Not assessed,670,12.1,Arouse to Voice
+867,79690.0,72.55,white,f,1.4821,1,1,0,0,3Q,divorced,Protestant,75.2,,Appropriate,Intact,Unsteady,,9.3,Alert
+868,79842.0,55.24,white,m,1.1023,1,0,0,0,3Q,married,Not specified,108.3,196,Anxious,Impaired,Unsteady,,12.5,Alert
+869,80220.0,79.31,white,m,2.314,1,0,0,0,5Q,married,Protestant,76.7,,,Intact,Unsteady,,13.4,Alert
+870,80308.0,54.85,latino,m,1.6518,0,1,0,0,4Q,married,Not specified,56,170,Appropriate,Intact,Steady,497,12.3,Alert
+871,80580.0,58.66,white,m,2.6278,0,1,0,0,6Q,married,Unknown,78,,,,,421,10.6,
+872,80650.0,84.13,white,m,14.0152,1,0,0,0,10Q,married,Not specified,86,183,,Not assessed,Not assessed,470,14.5,Lethargic
+873,80856.0,88.63,white,f,2.8644,1,1,0,0,6Q,married,Roman Catholic,89,163,,Intact,Unsteady,,10.8,Alert
+874,81109.0,88.89,white,m,0.9216,0,1,0,0,2Q,married,Unknown,73.2,,,,Unsteady,444,11.3,Arouse to Pain
+875,81150.0,86.38,black,f,1.0556,0,1,0,0,2Q,widowed,Episcopalian,56.2,,,,,561,9.2,Unresponsive
+876,81208.0,39.1,other,m,1.8553,0,1,0,1,4Q,married,Not specified,81.8,168,,,,449,14.2,Unresponsive
+877,81432.0,41.24,latino,m,2.6839,1,0,0,0,6Q,single,Not specified,111,,,Intact,Not assessed,,14.7,Alert
+878,81685.0,53.25,white,m,10.4049,1,0,0,0,9Q,single,Not specified,70,,Sleeping,,,545,10.7,Unresponsive
+879,82130.0,70.67,white,f,3.0371,1,0,0,0,6Q,single,Unknown,81,,,Intact,Steady,,14,Alert
+880,82139.0,78.57,NA,m,2.878,1,0,0,0,6Q,widowed,Not specified,85,180,,Not assessed,Not assessed,560,12.3,Arouse to Stimulation
+881,82178.0,79.9,white,m,5.7578,1,0,0,0,8Q,married,Protestant,92,185,Restless,Impaired,Unsteady,610,15.5,Alert
+882,82637.0,76.62,latino,f,6.0453,1,0,0,0,8Q,widowed,Not specified,76.7,157,Sleeping/Sedated,,,548,11.9,Unresponsive
+883,82717.0,69.82,white,m,0.8965,1,0,0,0,2Q,married,Not specified,74.6,,Appropriate,,,,13.1,Alert
+884,83046.0,71.4,white,m,1.0366,1,0,0,0,2Q,married,Roman Catholic,80.5,,,Intact,Steady,,14.4,Alert
+885,83776.0,64.55,other,m,2.3547,0,1,0,0,5Q,na,Not specified,91.7,,,,,446,12.9,Arouse to Pain
+886,83789.0,63.39,white,f,2.7277,1,1,0,0,6Q,married,Unknown,60,,Appropriate,,,746,8.7,Arouse to Pain
+887,83988.0,83.13,white,m,2.18,1,1,0,0,5Q,married,Other,61,,Appropriate,Intact,Unsteady,,14.1,Alert
+889,84750.0,80.56,white,f,1.0838,1,1,0,0,3Q,widowed,Roman Catholic,90,,,Not assessed,Not assessed,,10.7,Alert
+890,84845.0,79.81,white,m,0.5276,1,1,0,0,1Q,married,Protestant,95,,,Intact,Unsteady,518,13.4,Alert
+891,85017.0,37.99,white,f,4.6074,1,0,0,0,7Q,married,Not specified,61.7,165,,Impaired,Unsteady,,11.9,Alert
+892,85025.0,51.48,latino,m,2.65,0,1,0,0,6Q,married,Unknown,67.1,,,,,355,15.8,Unresponsive
+893,85039.0,54.44,white,m,1.9566,1,0,0,0,5Q,single,Not specified,89.5,,,,,452,14,Unresponsive
+894,85163.0,81.83,white,f,1.481,1,1,0,0,3Q,married,Protestant,90.4,163,Sleeping/Sedated,,,547,11.2,Arouse to Voice
+895,85259.0,81.43,NA,f,0.8849,1,1,0,0,2Q,single,Unknown,52,,,,,442,11.2,Arouse to Pain
+896,85452.0,40.61,white,f,2.1928,1,0,0,0,5Q,married,Unknown,178,170,,Intact,Steady,,11.6,Alert
+897,85620.0,78.27,NA,m,1.1893,1,0,0,0,3Q,married,Unknown,71.5,,,Intact,Steady,,14.3,Alert
+898,85725.0,54.26,white,f,30.0212,1,0,0,0,10Q,married,Buddhist,72,175,,,,426,10.2,Arouse to Pain
+899,85907.0,76.65,white,m,2.5243,1,1,0,0,6Q,single,Unknown,70.3,178,Restless,,,605,11.4,Unresponsive
+900,85979.0,69.38,white,f,1.0261,0,1,0,0,2Q,widowed,Roman Catholic,107,,Appropriate,,,549,16.3,Unresponsive
+901,86024.0,71.32,other,f,1.9071,1,0,0,0,4Q,widowed,Muslim,61.7,,,Intact,Unsteady,,11.7,Alert
+902,86068.0,77.42,white,m,3.0588,1,0,0,0,6Q,married,Not specified,80,,,,,652,15.5,Arouse to Voice
+903,86254.0,45.17,white,m,3.1471,1,0,0,0,6Q,divorced,Unknown,86,178,,,,0,13,Unresponsive
+904,86295.0,68.17,white,m,4.2529,1,1,0,0,7Q,married,Unknown,94.8,,,Impaired,Steady,621,13.7,Unresponsive
+905,86314.0,67.79,white,f,12.464,0,1,0,0,9Q,divorced,Unknown,70,163,,,,525,9.9,Unresponsive
+906,86377.0,83.11,white,m,1.5845,1,0,0,0,4Q,married,Roman Catholic,68.1,,,Intact,Not assessed,,10.4,Alert
+907,86678.0,69.82,other,m,8.9985,0,1,0,0,9Q,na,Unknown,52,168,Sleeping/Sedated,,,544,12.6,Unresponsive
+908,86732.0,72.64,white,m,1.6048,0,1,0,1,4Q,married,Not specified,74.2,,,,,732,8.3,Unresponsive
+909,86745.0,84.81,other,f,2.2394,1,0,0,0,5Q,widowed,Other,65,,,,,378,12.3,Arouse to Stimulation
+910,87108.0,63.39,other,f,1.4292,0,1,0,0,3Q,married,Not specified,75.8,152,Appropriate,,,564,14.6,Unresponsive
+911,87133.0,64.56,black,f,20.478,0,1,0,0,10Q,separated,Not specified,100,170,Sleeping/Sedated,,,523,12.1,Unresponsive
+912,87391.0,80.91,white,f,0.7871,1,1,0,0,1Q,married,Roman Catholic,63.5,,Appropriate,Intact,Steady,,11.7,Alert
+913,87394.0,75.42,black,f,0.8366,1,0,0,0,2Q,single,Not specified,101.5,,,,,,12.4,Alert
+914,87683.0,65.22,NA,m,0.9305,0,1,0,0,2Q,married,Unknown,100,,,Intact,Steady,519,15,Unresponsive
+915,87913.0,60.3,NA,f,21.8894,1,0,0,0,10Q,married,Unknown,71.2,157,,Intact,Steady,584,12.1,Unresponsive
+916,87926.0,71.73,white,m,5.1089,1,1,0,0,8Q,married,Not specified,86,170,Restless,Intact,Steady,334,12.5,Arouse to Voice
+917,88003.0,77.27,white,f,2.9701,1,0,0,0,6Q,widowed,Roman Catholic,67.5,,,Intact,Steady,,12.5,Alert
+918,88021.0,88.47,white,m,1.7814,1,1,0,0,4Q,widowed,Unknown,75.4,175,,,,501,13.2,Arouse to Stimulation
+919,88040.0,84.75,white,f,3.3986,1,1,0,0,7Q,single,Other,84.1,165,Restless,,,514,12.6,Arouse to Voice
+920,88165.0,75.56,NA,f,1.9372,1,0,0,0,4Q,single,Unknown,57.5,,,,,,11.2,Lethargic
+921,88166.0,61.82,white,f,0.2666,0,1,0,1,1Q,married,Protestant,98,,,,,380,,
+922,88220.0,71.89,white,f,3.4498,1,0,0,0,7Q,widowed,Not specified,79,,,Impaired,Deferred,517,10.8,Unresponsive
+923,88309.0,68.54,NA,f,6.2972,1,1,0,0,8Q,unknown (default),Unknown,64.1,165,,Impaired,Unsteady,700,9.5,Arouse to Pain
+924,88325.0,53.44,latino,f,0.9081,1,0,0,0,2Q,single,Not specified,87.9,,,,,465,12.1,Alert
+925,88443.0,59.17,white,m,0.3694,0,1,0,1,1Q,married,Not specified,100,,Sleeping/Paralyzed,,,218,,Unresponsive
+926,88532.0,52.08,asian,m,2.0818,1,0,0,0,5Q,divorced,Unknown,100,168,,Intact,Unsteady,,13.5,Lethargic
+927,88819.0,46.56,white,f,1.0499,1,0,0,0,2Q,married,Roman Catholic,73.4,160,,,,,12.1,Lethargic
+928,88826.0,60.88,asian,m,1.3219,1,0,0,0,3Q,married,Buddhist,70,,,Impaired,Not assessed,,11.7,Lethargic
+929,88937.0,80.39,white,m,2.2118,0,1,0,0,5Q,single,Other,67.4,,,Intact,Steady,505,12.8,Arouse to Voice
+930,88994.0,61.22,asian,f,13.6032,1,0,0,0,10Q,single,Unknown,70,165,,Intact,Steady,765,11.6,Arouse to Pain
+931,89002.0,41.45,white,f,13.3471,1,0,0,0,9Q,single,Unknown,90,165,,Not assessed,Not assessed,482,12.2,Arouse to Voice
+932,89100.0,59.45,white,f,8.1563,1,0,0,0,9Q,single,Roman Catholic,66,157,,Intact,Unsteady,470,8.9,Unresponsive
+933,89103.0,74.2,white,m,16.8207,1,1,0,0,10Q,divorced,Not specified,116.3,178,,,,556,13.1,Unresponsive
+934,89137.0,76.43,white,m,0.7145,0,1,0,1,1Q,married,Not specified,77,,,,,480,14.4,Unresponsive
+935,89168.0,57.66,white,m,22.7954,1,1,0,0,10Q,married,Unknown,100.1,183,,Not assessed,Not assessed,396,15.4,Arouse to Voice
+936,89722.0,78.32,white,m,0.8325,1,1,0,0,2Q,married,Not specified,83.4,,Restless,Impaired,Unsteady,,13.7,Arouse to Voice
+937,89980.0,86.4,white,m,0.4116,0,1,0,1,1Q,married,Protestant,69,,Sleeping,,,748,,Unresponsive
+939,90441.0,65.7,white,m,1.9865,1,0,0,0,5Q,married,Greek Orthodox,101.3,,,Intact,Not assessed,,11.2,Alert
+940,90447.0,24.23,black,m,0.7899,1,0,0,0,1Q,single,Not specified,65.9,,,Intact,Unsteady,,8.2,
+941,90451.0,83.18,white,m,0.4202,0,1,0,1,1Q,single,Other,79.8,,,,,513,,Unresponsive
+942,90452.0,78.51,white,f,9.6116,0,1,0,0,9Q,married,Unknown,85,,,,,556,12.7,Unresponsive
+943,90541.0,66.49,latino,f,5.7245,1,1,0,0,8Q,widowed,Roman Catholic,46.6,155,,,,414,12,Unresponsive
+944,90706.0,86.17,white,m,1.2164,1,1,0,0,3Q,widowed,Unknown,58.3,,Appropriate,Impaired,Unsteady,,12.2,Lethargic
+946,90843.0,56.82,white,m,11.8698,1,0,0,0,9Q,divorced,Unknown,72.8,173,,,,501,13,Alert
+947,90863.0,74.55,NA,m,1.7778,1,1,0,0,4Q,na,Unknown,50,,,,,520,16.4,Unresponsive
+948,91158.0,84.4,white,m,19.9825,1,1,0,0,10Q,widowed,Protestant,82.4,180,,Intact,Steady,560,12.4,Arouse to Stimulation
+949,91437.0,29.41,latino,m,2.4864,1,0,0,0,6Q,single,Not specified,95.9,,,,,549,14,Arouse to Pain
+950,91513.0,56.67,white,f,16.5155,1,0,0,0,10Q,single,Not specified,110.8,155,,Intact,Deferred,343,13.4,Alert
+951,91648.0,71.36,white,m,18.4486,1,0,0,0,10Q,married,Protestant,79.8,173,,,,543,9.7,Arouse to Voice
+952,91711.0,70.66,black,f,18.1451,1,1,0,0,10Q,single,Unknown,86,168,,,,144,8.8,Arouse to Voice
+953,91712.0,79.94,white,f,4.1891,1,1,0,0,7Q,widowed,Roman Catholic,47,163,,,,478,10.3,Lethargic
+954,91904.0,73.7,white,m,2.0842,0,1,0,0,5Q,married,Roman Catholic,81,180,Sleeping/Sedated,,,517,11.1,Unresponsive
+955,92175.0,58.73,white,m,10.8195,1,1,0,0,9Q,single,Not specified,61.7,178,,Intact,,650,11.9,Arouse to Pain
+957,92379.0,58.05,black,m,16.7401,1,0,0,0,10Q,married,Not specified,89.8,170,Appropriate,Intact,Steady,543,12.1,Alert
+958,92640.0,49.67,black,m,2.2569,1,0,0,0,5Q,married,Protestant,67.8,165,,Intact,Steady,,12.3,Alert
+959,93088.0,59.76,other,f,9.8882,1,0,0,0,9Q,married,Not specified,91.4,,,,,446,11.9,Arouse to Stimulation
+960,93194.0,41.6,NA,m,2.8911,0,1,0,0,6Q,na,Unknown,68.4,168,,Deferred,Deferred,530,13.5,Arouse to Pain
+961,93245.0,87.59,white,f,1.6142,0,1,0,0,4Q,widowed,Unknown,67.4,,,Intact,Steady,560,11,Arouse to Pain
+962,93392.0,79.58,white,f,6.6706,0,1,0,0,8Q,divorced,Not specified,44.1,152,,Intact,Unsteady,416,13,Arouse to Pain
+963,93401.0,64.75,other,m,1.598,1,0,0,0,4Q,unknown (default),Not specified,85,,,,,558,11.4,Arouse to Voice
+964,93588.0,67.54,white,m,1.334,1,0,0,0,3Q,married,Roman Catholic,81.8,,,Intact,Steady,,15.3,Lethargic
+965,93623.0,62.95,white,f,1.1108,1,0,0,0,3Q,single,Roman Catholic,58.1,,,,,,12.3,
+966,93911.0,85.93,white,m,0.9471,1,1,0,0,2Q,married,Other,95.8,188,Appropriate,Impaired,Steady,,13.4,Alert
+967,94162.0,83.08,white,m,4.9536,1,1,0,0,7Q,married,Other,82.8,183,Restless,,,579,12.6,Unresponsive
+968,94189.0,40.73,white,m,4.804,0,1,0,0,7Q,married,Not specified,97.6,170,,,,541,12.6,Unresponsive
+969,94279.0,84.86,white,m,0.5734,1,0,0,0,1Q,married,Other,86.4,170,,Intact,Unsteady,,15.9,Alert
+970,94361.0,69.47,white,f,0.9213,1,0,0,0,2Q,married,Roman Catholic,63,,,Intact,Unsteady,,13.5,
+971,94407.0,54.8,black,f,2.9425,1,0,0,0,6Q,married,Protestant,71.5,,,,,510,12.7,
+972,94609.0,57.03,white,m,5.5543,1,0,0,0,8Q,married,Roman Catholic,84.2,180,,Intact,Steady,500,10.4,Unresponsive
+973,94777.0,59.99,white,m,3.8776,1,1,0,0,7Q,married,Unknown,77.7,170,Sleeping/Sedated,Intact,Steady,534,8.9,Unresponsive
+975,95240.0,86.46,black,f,10.7821,1,0,0,0,9Q,widowed,Unknown,71.3,165,,,,405,11.7,
+976,95316.0,58.02,white,m,2.1005,1,0,0,0,5Q,married,Unknown,116.8,,,Intact,Steady,681,12.1,Arouse to Voice
+979,95674.0,32.85,white,f,3.0776,1,0,0,0,6Q,married,Not specified,71.4,152,,,,,13.4,Alert
+980,95741.0,80.23,white,f,1.0682,1,1,0,0,2Q,widowed,Protestant,70,,,,,,10.6,
+981,95893.0,66.5,latino,m,6.3324,1,0,0,0,8Q,married,Roman Catholic,49.1,,,Intact,Steady,,11.4,Alert
+982,96060.0,47.24,white,m,0.48,0,1,0,1,1Q,married,Not specified,95,,,,,546,,Unresponsive
+983,96137.0,87.42,white,f,0.8634,1,0,0,0,2Q,widowed,Protestant,76.5,170,,Intact,Steady,,8.9,Alert
+984,96264.0,81.28,white,f,1.6226,0,1,0,0,4Q,married,Unknown,50,,,Impaired,Not assessed,440,13.3,Arouse to Pain
+985,96500.0,77.48,white,m,0.8625,0,1,0,0,2Q,na,Unknown,88.4,,,,,572,14.8,Unresponsive
+986,96591.0,63.28,black,m,8.1238,1,1,0,0,9Q,married,Not specified,65.9,180,Sleeping/Sedated,Impaired,Unsteady,611,11.5,Unresponsive
+987,96739.0,78.94,white,m,0.4708,0,1,0,1,1Q,married,Not specified,80,,,,,457,10.2,Arouse to Pain
+988,96746.0,75.72,NA,f,11.6778,0,1,0,0,9Q,na,Not specified,70,163,,,,510,13.6,Unresponsive
+989,97091.0,82.31,white,m,6.6329,1,1,0,0,8Q,married,Roman Catholic,63.3,,,,,258,12.1,
+990,97310.0,88.33,white,f,0.862,0,1,0,0,2Q,married,Roman Catholic,65.1,,,,,556,,Arouse to Pain
+991,97738.0,40.56,other,m,11.8782,1,0,0,0,9Q,na,Not specified,63.8,183,,,,497,14,Unresponsive
+992,97868.0,71.7,white,m,0.509,0,1,0,1,1Q,na,Not specified,78.2,,Inappropriate,,,484,12.2,Unresponsive
+993,97917.0,82.92,white,f,2.2541,0,1,0,0,5Q,widowed,Jewish,670,,Inappropriate,,,397,10.4,Lethargic
+994,97919.0,88.21,NA,m,0.6358,0,1,0,0,1Q,na,Unknown,60,,,Intact,Unsteady,550,,Arouse to Pain
+995,97933.0,74.99,white,m,5.2193,1,0,0,0,8Q,widowed,Unknown,87.9,170,,,,538,13.1,Arouse to Pain
+996,97947.0,81.69,white,m,1.8428,1,1,0,0,4Q,married,Unknown,73.6,,Appropriate,Impaired,Steady,,14,Alert
+997,98083.0,71.33,white,f,1.2201,0,1,0,0,3Q,married,Roman Catholic,68.5,,Appropriate,,,,,Alert
+998,98094.0,55.62,white,m,1.2009,1,0,0,0,3Q,married,Unknown,103.4,,,,,,13,Alert
+999,98273.0,83.28,white,f,0.2849,0,1,0,0,1Q,widowed,Roman Catholic,63,,,,,343,,Unresponsive
+1000,98303.0,86.14,white,m,4.8709,0,1,0,0,7Q,married,Not specified,75,,,Deferred,Deferred,575,12,Arouse to Stimulation
+1002,98948.0,42.18,NA,m,3.1494,1,0,0,0,6Q,single,Unknown,58,,,,,583,14.2,
+1003,99038.0,73.97,white,m,4.9314,1,0,0,0,7Q,married,Not specified,90,183,Sleeping/Sedated,,,531,11.1,Arouse to Pain
+1004,99184.0,84.89,white,f,2.9189,0,1,0,0,6Q,widowed,Unknown,52.7,,,,,449,12.9,Unresponsive
+1005,99282.0,47.87,white,m,3.5522,1,0,0,0,7Q,single,Muslim,70,173,,Intact,Steady,478,11.2,Unresponsive
+1006,99286.0,57.17,black,f,3.6891,1,0,0,0,7Q,married,Not specified,68,,,,,,12.1,
+1007,99366.0,73.31,NA,m,7.7437,1,0,0,0,9Q,na,Unknown,66,,,,,486,10.6,Unresponsive
+1008,99589.0,47.36,white,m,0.7933,1,0,0,0,1Q,married,Roman Catholic,61.8,178,,Intact,Steady,,13.6,
+1009,99599.0,58.3,NA,m,2.4386,1,0,0,0,6Q,na,Unknown,70,,,,,484,11.5,Arouse to Voice
